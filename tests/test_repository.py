@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 from pathlib import Path
+import tempfile
 import unittest
 
 
@@ -92,6 +94,32 @@ class RepositoryTest(unittest.TestCase):
         self.assertEqual(records[1]["official_id"], "RETRACTED-P16")
         self.assertEqual(records[1]["publication_status"], "retracted")
         self.assertEqual(records[1]["electronic_editions"], [])
+
+    def test_sync_preserves_review_curation(self) -> None:
+        previous = {
+            "id": "ifaamas:2026:abcd1234",
+            "track": "research",
+            "topics": ["planning_scheduling"],
+            "note_status": "reviewed",
+            "note_path": "docs/notes/2026/example.md",
+            "reviewed_by": "Reviewer",
+            "reviewed_at": "2026-07-28",
+        }
+        fresh = {
+            "id": previous["id"],
+            "track": "research",
+            "topics": ["unclassified"],
+            "note_status": "metadata_only",
+            "note_path": "",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "AAMAS2026.jsonl"
+            output.write_text(json.dumps(previous) + "\n", encoding="utf-8")
+            merged = IFAAMAS_MODULE.preserve_curation([fresh], output)[0]
+        self.assertEqual(merged["topics"], ["planning_scheduling"])
+        self.assertEqual(merged["note_status"], "reviewed")
+        self.assertEqual(merged["reviewed_by"], "Reviewer")
+        self.assertEqual(merged["reviewed_at"], "2026-07-28")
 
 
 if __name__ == "__main__":

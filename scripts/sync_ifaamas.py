@@ -24,6 +24,14 @@ PAPERS_DIR = ROOT / "data" / "papers"
 PROVENANCE_DIR = ROOT / "data" / "provenance"
 USER_AGENT = "AAMAS-Notes metadata sync (https://github.com/Endofthestars/AAMAS-Notes)"
 MAX_ATTEMPTS = 5
+CURATED_FIELDS = (
+    "track",
+    "topics",
+    "note_status",
+    "note_path",
+    "reviewed_by",
+    "reviewed_at",
+)
 
 TRACKS = {
     "K": "keynote",
@@ -208,6 +216,26 @@ def parse_proceedings(html: str, source_url: str) -> list[dict[str, Any]]:
     return sorted(records, key=lambda record: (int(record["pages"]), record["official_id"]))
 
 
+def preserve_curation(
+    records: list[dict[str, Any]],
+    output: Path,
+) -> list[dict[str, Any]]:
+    if not output.is_file():
+        return records
+    previous = {
+        record["id"]: record
+        for line in output.read_text(encoding="utf-8").splitlines()
+        for record in [json.loads(line)]
+        if record.get("id")
+    }
+    for record in records:
+        old = previous.get(record["id"], {})
+        for field in CURATED_FIELDS:
+            if field in old:
+                record[field] = old[field]
+    return records
+
+
 def sync() -> tuple[Path, int]:
     sources = read_json(SOURCES_PATH)["sources"]
     source = next(
@@ -227,6 +255,7 @@ def sync() -> tuple[Path, int]:
         raise RuntimeError("IFAAMAS returned no AAMAS 2026 paper records")
 
     output = PAPERS_DIR / "AAMAS2026.jsonl"
+    records = preserve_curation(records, output)
     text = "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n" for record in records)
     atomic_write(output, text)
 

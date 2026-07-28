@@ -38,6 +38,7 @@ def validate() -> list[str]:
     seen_ids: dict[str, str] = {}
     seen_keys: dict[str, str] = {}
     seen_dois: dict[str, str] = {}
+    seen_note_paths: dict[str, str] = {}
 
     for path in sorted((ROOT / "data" / "papers").glob("AAMAS*.jsonl")):
         for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
@@ -71,6 +72,19 @@ def validate() -> list[str]:
                 note_path = ROOT / record["note_path"]
                 if not record["note_path"] or not note_path.is_file():
                     errors.append(f"{label}: reviewed record must reference an existing note")
+                if not str(record.get("reviewed_by", "")).strip():
+                    errors.append(f"{label}: reviewed record must name its reviewer")
+                if not str(record.get("reviewed_at", "")).strip():
+                    errors.append(f"{label}: reviewed record must include its review date")
+            note_path_value = str(record["note_path"]).strip()
+            if note_path_value:
+                if note_path_value in seen_note_paths:
+                    errors.append(
+                        f"{label}: duplicate note_path; "
+                        f"first seen at {seen_note_paths[note_path_value]}"
+                    )
+                else:
+                    seen_note_paths[note_path_value] = label
 
             for field, seen in (
                 ("id", seen_ids),
