@@ -26,6 +26,7 @@ data/
   provenance/AAMAS2025.json    # 本次抓取时间、来源和记录数
 docs/
   index.md                     # 语料入口
+  review-routing.md            # Spark 主导、Sol 风险升级策略
 templates/
   paper-note.md                # 单篇笔记模板
 scripts/
@@ -92,6 +93,10 @@ gh pr create \
 `reviewed` 表示笔记中声明的核验范围已经完成，不自动等同于人类领域专家签字或
 独立复现实验。每篇笔记必须公开 `generated_by`、`reviewed_by`、`reviewed_at`
 以及尚未核验的边界。
+
+模型审核默认遵循 [Spark 双通道路由](docs/review-routing.md)：Spark 分别完成草稿
+和独立反向 QA；Sol 只处理冲突、高风险主张和滚动 10% 抽样。长期目标是让
+80%–90% 的模型工作量由 Spark 完成。
 
 ## 数据与版权
 

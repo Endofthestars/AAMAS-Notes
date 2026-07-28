@@ -121,6 +121,22 @@ class RepositoryTest(unittest.TestCase):
         self.assertEqual(merged["reviewed_by"], "Reviewer")
         self.assertEqual(merged["reviewed_at"], "2026-07-28")
 
+    def test_reviewed_notes_declare_model_routing(self) -> None:
+        records = [
+            json.loads(line)
+            for line in (ROOT / "data" / "papers" / "AAMAS2026.jsonl")
+            .read_text(encoding="utf-8")
+            .splitlines()
+        ]
+        for record in records:
+            if record["note_status"] != "reviewed":
+                continue
+            frontmatter = MODULE.load_frontmatter(ROOT / record["note_path"])
+            self.assertEqual(frontmatter["note_status"], "reviewed")
+            self.assertTrue(frontmatter["review_route"])
+            self.assertTrue(frontmatter["risk_level"])
+            self.assertTrue(frontmatter["sol_escalation"])
+
 
 if __name__ == "__main__":
     unittest.main()
