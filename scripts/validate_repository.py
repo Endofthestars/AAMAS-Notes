@@ -16,7 +16,8 @@ REQUIRED_REVIEW_FRONTMATTER = {
     "note_status",
     "review_route",
     "risk_level",
-    "sol_escalation",
+    "escalation_model",
+    "escalation_reason",
     "generated_by",
     "reviewed_by",
     "reviewed_at",
@@ -112,6 +113,16 @@ def validate() -> list[str]:
                         errors.append(
                             f"{label}: reviewed record references a note whose "
                             "note_status is not reviewed"
+                        )
+                    escalation_model = frontmatter.get("escalation_model", "")
+                    if (
+                        escalation_model
+                        and escalation_model != "none"
+                        and not frontmatter.get("escalation_verdict", "").strip()
+                    ):
+                        errors.append(
+                            f"{label}: escalated review must include "
+                            "escalation_verdict"
                         )
                 if not str(record.get("reviewed_by", "")).strip():
                     errors.append(f"{label}: reviewed record must name its reviewer")

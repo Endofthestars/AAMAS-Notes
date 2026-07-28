@@ -135,7 +135,10 @@ class RepositoryTest(unittest.TestCase):
             self.assertEqual(frontmatter["note_status"], "reviewed")
             self.assertTrue(frontmatter["review_route"])
             self.assertTrue(frontmatter["risk_level"])
-            self.assertTrue(frontmatter["sol_escalation"])
+            self.assertTrue(frontmatter["escalation_model"])
+            self.assertTrue(frontmatter["escalation_reason"])
+            if frontmatter["escalation_model"] != "none":
+                self.assertTrue(frontmatter["escalation_verdict"])
 
 
 if __name__ == "__main__":
