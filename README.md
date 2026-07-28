@@ -27,6 +27,7 @@ data/
 docs/
   index.md                     # 语料入口
   review-routing.md            # Spark 主导、Terra 风险升级策略
+site/                          # GitHub Pages 静态阅读站与构建脚本
 templates/
   paper-note.md                # 单篇笔记模板
 scripts/
@@ -42,6 +43,24 @@ scripts/
 3. 自动分类后改为 `classified_draft`，必须保留分类依据。
 4. 阅读原论文并核对实验数据后，才可改为 `reviewed`。
 5. 所有自动同步和笔记修改通过 Pull Request 合并。
+
+## 阅读站与 GitHub Pages
+
+仓库提供一个无外部依赖的静态阅读站：按主题浏览 `reviewed` 笔记，并展示每篇笔记的
+审核路径、风险等级与官方论文链接。它借鉴 PaperNote 的“主题索引 → 论文 → 笔记”阅读
+方式，但不复制其内容或结构。
+
+在 GitHub 仓库的 **Settings → Pages** 中将发布源设为 **GitHub Actions**。随后每次推送
+到 `main` 的笔记、元数据或站点变更都会构建并部署；也可在 Actions 中手动运行
+`Deploy reading site to GitHub Pages`。本地预览构建：
+
+```bash
+python3 site/build.py
+python3 -m http.server --directory site/_site 8000
+```
+
+私有仓库能否对外发布取决于 GitHub 套餐和 Pages 可见性设置；若发布受限，工作流仍会生成
+部署产物，但需由仓库管理员在 Pages 设置中选择合适的访问策略。
 
 同步器只刷新官方字段，并保留 `topics`、`note_status`、`note_path`、审核人和审核
 日期等策展字段，避免定期同步覆盖人工或模型辅助整理结果。
