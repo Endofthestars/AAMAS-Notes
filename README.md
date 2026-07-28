@@ -54,7 +54,15 @@ python3 scripts/sync_dblp.py --year 2025
 ```
 
 GitHub Actions 的手动入口也支持选择单个年份。每个年份使用独立的
-`automation/dblp-sync-<year>` PR 分支，避免一次上游故障阻塞其他年份。
+`automation/dblp-sync-<year>` 分支，避免一次上游故障阻塞其他年份。出于
+最小权限原则，Actions 只推送同步分支，不创建或批准 PR；维护者检查后运行：
+
+```bash
+gh pr create \
+  --base main \
+  --head automation/dblp-sync-2025 \
+  --title "chore(data): sync DBLP metadata (2025)"
+```
 
 ## 状态含义
 

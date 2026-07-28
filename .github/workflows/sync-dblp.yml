@@ -19,7 +19,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: sync-dblp-main
@@ -47,9 +46,8 @@ jobs:
             python3 scripts/sync_dblp.py --year "$SYNC_YEAR"
           fi
       - run: python3 scripts/validate_repository.py
-      - name: Create or update synchronization pull request
+      - name: Publish synchronization branch
         env:
-          GH_TOKEN: ${{ github.token }}
           SYNC_YEAR: ${{ inputs.year || 'all' }}
           BRANCH: automation/dblp-sync-${{ inputs.year || 'all' }}
         run: |
@@ -63,14 +61,12 @@ jobs:
           git add data/
           git commit -m "chore(data): sync DBLP metadata"
           git push --force-with-lease origin "HEAD:$BRANCH"
-          existing="$(gh pr list --base main --head "$BRANCH" --state open --json url --jq '.[0].url')"
-          if [[ -z "$existing" ]]; then
-            gh pr create \
-              --base main \
-              --head "$BRANCH" \
-              --title "chore(data): sync DBLP metadata ($SYNC_YEAR)" \
-              --body "Automated AAMAS metadata synchronization from configured DBLP exports. Requested year: $SYNC_YEAR."
-          fi
+          {
+            echo "Synchronization branch published: \`$BRANCH\`"
+            echo
+            echo "A maintainer can open the PR with:"
+            echo "\`gh pr create --base main --head $BRANCH\`"
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Report incomplete upstream synchronization
         if: steps.synchronize.outcome == 'failure'
         run: |
