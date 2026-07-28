@@ -52,11 +52,12 @@ def fetch_json(url: str) -> dict[str, Any]:
             with urlopen(request, timeout=60) as response:
                 return json.load(response)
         except HTTPError as exc:
-            if exc.code != 429 or attempt == MAX_ATTEMPTS - 1:
+            retryable = exc.code == 429 or 500 <= exc.code < 600
+            if not retryable or attempt == MAX_ATTEMPTS - 1:
                 raise
             retry_after = exc.headers.get("Retry-After", "")
             delay = float(retry_after) if retry_after.isdigit() else 5.0 * (2**attempt)
-            print(f"DBLP rate limit; retrying in {delay:g}s", file=sys.stderr)
+            print(f"DBLP HTTP {exc.code}; retrying in {delay:g}s", file=sys.stderr)
             time.sleep(delay)
         except (RemoteDisconnected, TimeoutError, URLError) as exc:
             if attempt == MAX_ATTEMPTS - 1:
