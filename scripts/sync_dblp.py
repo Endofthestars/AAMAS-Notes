@@ -25,6 +25,14 @@ USER_AGENT = "AAMAS-Notes metadata sync (https://github.com/Endofthestars/AAMAS-
 PAGE_SIZE = 100
 REQUEST_DELAY_SECONDS = 1.5
 MAX_ATTEMPTS = 5
+CURATED_FIELDS = (
+    "track",
+    "topics",
+    "note_status",
+    "note_path",
+    "reviewed_by",
+    "reviewed_at",
+)
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -153,6 +161,26 @@ def normalize_hit(hit: dict[str, Any], expected_year: int) -> dict[str, Any] | N
     }
 
 
+def preserve_curation(
+    records: list[dict[str, Any]],
+    output: Path,
+) -> list[dict[str, Any]]:
+    if not output.is_file():
+        return records
+    previous = {
+        record["id"]: record
+        for line in output.read_text(encoding="utf-8").splitlines()
+        for record in [json.loads(line)]
+        if record.get("id")
+    }
+    for record in records:
+        old = previous.get(record["id"], {})
+        for field in CURATED_FIELDS:
+            if field in old:
+                record[field] = old[field]
+    return records
+
+
 def sync_source(source: dict[str, Any]) -> tuple[Path, int]:
     year = int(source["year"])
     hits = fetch_all_hits(source["url"])
@@ -168,6 +196,7 @@ def sync_source(source: dict[str, Any]) -> tuple[Path, int]:
         raise RuntimeError(f"DBLP returned no AAMAS {year} records")
 
     output = PAPERS_DIR / f"AAMAS{year}.jsonl"
+    records = preserve_curation(records, output)
     text = "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n" for record in records)
     atomic_write(output, text)
 
