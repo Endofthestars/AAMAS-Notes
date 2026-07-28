@@ -206,9 +206,20 @@ def main() -> int:
         missing = sorted(requested - {int(source["year"]) for source in sources})
         print(f"No DBLP source configured for years: {missing}", file=sys.stderr)
         return 2
+    failures: list[str] = []
     for source in sources:
-        output, count = sync_source(source)
-        print(f"{output.relative_to(ROOT)}: {count} records")
+        try:
+            output, count = sync_source(source)
+        except Exception as exc:
+            year = int(source["year"])
+            failures.append(f"AAMAS {year}: {type(exc).__name__}: {exc}")
+            continue
+        print(f"{output.relative_to(ROOT)}: {count} records", flush=True)
+    if failures:
+        print("One or more yearly sources failed:", file=sys.stderr)
+        for failure in failures:
+            print(f"- {failure}", file=sys.stderr)
+        return 1
     return 0
 
 

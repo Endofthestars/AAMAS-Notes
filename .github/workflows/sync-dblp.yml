@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Synchronize configured DBLP sources
+        id: synchronize
+        continue-on-error: true
         run: python3 scripts/sync_dblp.py
       - run: python3 scripts/validate_repository.py
       - name: Create or update synchronization pull request
@@ -49,3 +51,8 @@ jobs:
               --title "chore(data): sync DBLP metadata" \
               --body "Automated weekly AAMAS metadata synchronization from configured DBLP exports."
           fi
+      - name: Report incomplete upstream synchronization
+        if: steps.synchronize.outcome == 'failure'
+        run: |
+          echo "At least one DBLP year failed; successful yearly snapshots were preserved."
+          exit 1
