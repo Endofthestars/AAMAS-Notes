@@ -12,6 +12,15 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 VALID_STATUSES = {"metadata_only", "classified_draft", "note_draft", "reviewed"}
 VALID_PUBLICATION_STATUSES = {"active", "retracted"}
+REQUIRED_REVIEW_FRONTMATTER = {
+    "note_status",
+    "review_route",
+    "risk_level",
+    "sol_escalation",
+    "generated_by",
+    "reviewed_by",
+    "reviewed_at",
+}
 REQUIRED_FIELDS = {
     "id",
     "conference",
@@ -28,6 +37,21 @@ REQUIRED_FIELDS = {
 
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_frontmatter(path: Path) -> dict[str, str]:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return {}
+    fields: dict[str, str] = {}
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if line.startswith((" ", "\t", "-")) or ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        fields[key.strip()] = value.strip().strip("\"'")
+    return fields
 
 
 def validate() -> list[str]:
@@ -72,6 +96,23 @@ def validate() -> list[str]:
                 note_path = ROOT / record["note_path"]
                 if not record["note_path"] or not note_path.is_file():
                     errors.append(f"{label}: reviewed record must reference an existing note")
+                elif note_path.is_file():
+                    frontmatter = load_frontmatter(note_path)
+                    missing_review_fields = sorted(
+                        field
+                        for field in REQUIRED_REVIEW_FRONTMATTER
+                        if not frontmatter.get(field, "").strip()
+                    )
+                    if missing_review_fields:
+                        errors.append(
+                            f"{label}: reviewed note missing front matter "
+                            f"{missing_review_fields}"
+                        )
+                    if frontmatter.get("note_status") != "reviewed":
+                        errors.append(
+                            f"{label}: reviewed record references a note whose "
+                            "note_status is not reviewed"
+                        )
                 if not str(record.get("reviewed_by", "")).strip():
                     errors.append(f"{label}: reviewed record must name its reviewer")
                 if not str(record.get("reviewed_at", "")).strip():
