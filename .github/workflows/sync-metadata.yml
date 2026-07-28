@@ -1,4 +1,4 @@
-name: Sync DBLP metadata
+name: Sync conference metadata
 
 on:
   schedule:
@@ -16,12 +16,13 @@ on:
           - "2023"
           - "2024"
           - "2025"
+          - "2026"
 
 permissions:
   contents: write
 
 concurrency:
-  group: sync-dblp-main
+  group: sync-metadata-main
   cancel-in-progress: false
 
 jobs:
@@ -34,32 +35,37 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Synchronize configured DBLP sources
+      - name: Synchronize configured metadata sources
         id: synchronize
         continue-on-error: true
         env:
           SYNC_YEAR: ${{ inputs.year || 'all' }}
         run: |
-          if [[ "$SYNC_YEAR" == "all" ]]; then
-            python3 scripts/sync_dblp.py
+          sync_failed=0
+          if [[ "$SYNC_YEAR" == "2026" ]]; then
+            python3 scripts/sync_ifaamas.py || sync_failed=1
+          elif [[ "$SYNC_YEAR" == "all" ]]; then
+            python3 scripts/sync_dblp.py || sync_failed=1
+            python3 scripts/sync_ifaamas.py || sync_failed=1
           else
-            python3 scripts/sync_dblp.py --year "$SYNC_YEAR"
+            python3 scripts/sync_dblp.py --year "$SYNC_YEAR" || sync_failed=1
           fi
+          exit "$sync_failed"
       - run: python3 scripts/validate_repository.py
       - name: Publish synchronization branch
         env:
           SYNC_YEAR: ${{ inputs.year || 'all' }}
-          BRANCH: automation/dblp-sync-${{ inputs.year || 'all' }}
+          BRANCH: automation/metadata-sync-${{ inputs.year || 'all' }}
         run: |
           if [[ -z "$(git status --porcelain -- data/)" ]]; then
-            echo "DBLP metadata is current."
+            echo "Conference metadata is current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
           git add data/
-          git commit -m "chore(data): sync DBLP metadata"
+          git commit -m "chore(data): sync AAMAS metadata"
           git push --force-with-lease origin "HEAD:$BRANCH"
           {
             echo "Synchronization branch published: \`$BRANCH\`"
@@ -70,5 +76,5 @@ jobs:
       - name: Report incomplete upstream synchronization
         if: steps.synchronize.outcome == 'failure'
         run: |
-          echo "At least one DBLP year failed; successful yearly snapshots were preserved."
+          echo "At least one metadata source failed; successful snapshots were preserved."
           exit 1

@@ -30,8 +30,8 @@
       "year": 2026,
       "provider": "IFAAMAS",
       "kind": "official_proceedings",
-      "url": "https://www.ifaamas.org/Proceedings/aamas2026/",
-      "sync": "manual_until_dblp_indexed"
+      "url": "https://www.ifaamas.org/Proceedings/aamas2026/forms/contents.htm",
+      "sync": "official_html_until_dblp_indexed"
     }
   ]
 }

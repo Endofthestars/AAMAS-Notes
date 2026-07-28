@@ -7,7 +7,8 @@ Systems）的可审计论文语料库。仓库将“官方元数据”“自动�
 ## 配置范围
 
 - DBLP 元数据源：AAMAS 2022–2025
-- IFAAMAS 官方 proceedings：AAMAS 2026（等待 DBLP 编目后并入自动同步）
+- IFAAMAS 官方 proceedings：AAMAS 2026（DBLP 编目前使用官方目录）
+- 首次快照：2022–2026 共 2,419 条会议内容记录
 - 深度笔记优先级：多智能体规划/调度/资源分配，以及可信、安全、验证和工程
 - 不在仓库中镜像论文 PDF
 
@@ -28,12 +29,13 @@ templates/
   paper-note.md                # 单篇笔记模板
 scripts/
   sync_dblp.py                 # DBLP 增量同步
+  sync_ifaamas.py              # IFAAMAS 官方 proceedings 同步
   validate_repository.py       # 唯一 ID、字段、分类和状态校验
 ```
 
 ## 维护流程
 
-1. `scripts/sync_dblp.py` 只更新书目元数据，不生成研究结论。
+1. 同步脚本只更新官方书目元数据，不生成研究结论。
 2. 新记录初始状态固定为 `metadata_only`、主题为 `unclassified`。
 3. 自动分类后改为 `classified_draft`，必须保留分类依据。
 4. 阅读原论文并核对实验数据后，才可改为 `reviewed`。
@@ -43,25 +45,32 @@ scripts/
 
 ```bash
 python3 scripts/sync_dblp.py
+python3 scripts/sync_ifaamas.py
 python3 scripts/validate_repository.py
 python3 -m unittest discover -s tests
 ```
 
-只同步某一年：
+只同步某一年（2022–2025）：
 
 ```bash
 python3 scripts/sync_dblp.py --year 2025
 ```
 
-GitHub Actions 的手动入口也支持选择单个年份。每个年份使用独立的
-`automation/dblp-sync-<year>` 分支，避免一次上游故障阻塞其他年份。出于
+2026 使用 IFAAMAS 官方目录，并明确保留官方撤稿标记：
+
+```bash
+python3 scripts/sync_ifaamas.py
+```
+
+GitHub Actions 的手动入口支持选择单个年份。每个年份使用独立的
+`automation/metadata-sync-<year>` 分支，避免一次上游故障阻塞其他年份。出于
 最小权限原则，Actions 只推送同步分支，不创建或批准 PR；维护者检查后运行：
 
 ```bash
 gh pr create \
   --base main \
-  --head automation/dblp-sync-2025 \
-  --title "chore(data): sync DBLP metadata (2025)"
+  --head automation/metadata-sync-2026 \
+  --title "chore(data): sync AAMAS metadata (2026)"
 ```
 
 ## 状态含义
@@ -72,6 +81,9 @@ gh pr create \
 | `classified_draft` | 已自动或人工分类，但尚未完成论文核验 |
 | `note_draft` | 已有解读草稿，尚未完成复核 |
 | `reviewed` | 已核对原论文、关键实验和局限 |
+
+`publication_status` 独立记录官方发布状态；撤稿记录保留在快照中并标记为
+`retracted`，不会静默删除或进入普通论文分析。
 
 ## 数据与版权
 

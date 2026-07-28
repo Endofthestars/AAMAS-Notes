@@ -1,0 +1,21 @@
+{
+  "conference": "AAMAS",
+  "provider": "IFAAMAS",
+  "publication_status_counts": {
+    "active": 641,
+    "retracted": 1
+  },
+  "record_count": 642,
+  "retrieved_at": "2026-07-28T11:07:14.428348+00:00",
+  "source_url": "https://www.ifaamas.org/Proceedings/aamas2026/forms/contents.htm",
+  "track_counts": {
+    "aaai": 19,
+    "blue_sky": 17,
+    "demo": 44,
+    "doctoral_consortium": 34,
+    "jaamas": 3,
+    "keynote": 3,
+    "research": 522
+  },
+  "year": 2026
+}

@@ -11,6 +11,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 VALID_STATUSES = {"metadata_only", "classified_draft", "note_draft", "reviewed"}
+VALID_PUBLICATION_STATUSES = {"active", "retracted"}
 REQUIRED_FIELDS = {
     "id",
     "conference",
@@ -59,6 +60,11 @@ def validate() -> list[str]:
                 errors.append(f"{label}: unknown topics {unknown_topics}")
             if record["note_status"] not in VALID_STATUSES:
                 errors.append(f"{label}: invalid note_status {record['note_status']!r}")
+            if record.get("publication_status", "active") not in VALID_PUBLICATION_STATUSES:
+                errors.append(
+                    f"{label}: invalid publication_status "
+                    f"{record.get('publication_status')!r}"
+                )
             if not isinstance(record["authors"], list) or not record["authors"]:
                 errors.append(f"{label}: authors must be a non-empty list")
             if record["note_status"] == "reviewed":
