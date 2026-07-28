@@ -9,8 +9,9 @@
 5. 实证论文进入 `reviewed` 前至少核对方法、主要实验、基线和局限；理论论文至少
    核对关键定义、定理条件、构造或证明结论以及讨论中的适用边界。
 6. 模型辅助笔记必须如实记录生成模型、复核模型或复核人，以及未独立验证的内容。
-7. 默认执行 [Spark 双通道、Sol 风险升级](docs/review-routing.md)；不得为了节省
-   Sol 用量而跳过第二次独立 Spark QA 或隐去 `hold_for_human`。
+7. 默认执行 [Spark 双通道、Terra 风险升级](docs/review-routing.md)；不得为了节省
+   Terra 用量而跳过第二次独立 Spark QA 或隐去 `hold_for_human`。Sol 仅在用户
+   明确要求时使用。
 
 ## Pull Request 检查
 
