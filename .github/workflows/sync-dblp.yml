@@ -4,6 +4,18 @@ on:
   schedule:
     - cron: "23 7 * * 1"
   workflow_dispatch:
+    inputs:
+      year:
+        description: Year to synchronize
+        type: choice
+        required: true
+        default: all
+        options:
+          - all
+          - "2022"
+          - "2023"
+          - "2024"
+          - "2025"
 
 permissions:
   contents: write
@@ -26,12 +38,20 @@ jobs:
       - name: Synchronize configured DBLP sources
         id: synchronize
         continue-on-error: true
-        run: python3 scripts/sync_dblp.py
+        env:
+          SYNC_YEAR: ${{ inputs.year || 'all' }}
+        run: |
+          if [[ "$SYNC_YEAR" == "all" ]]; then
+            python3 scripts/sync_dblp.py
+          else
+            python3 scripts/sync_dblp.py --year "$SYNC_YEAR"
+          fi
       - run: python3 scripts/validate_repository.py
       - name: Create or update synchronization pull request
         env:
           GH_TOKEN: ${{ github.token }}
-          BRANCH: automation/dblp-sync
+          SYNC_YEAR: ${{ inputs.year || 'all' }}
+          BRANCH: automation/dblp-sync-${{ inputs.year || 'all' }}
         run: |
           if [[ -z "$(git status --porcelain -- data/)" ]]; then
             echo "DBLP metadata is current."
@@ -48,8 +68,8 @@ jobs:
             gh pr create \
               --base main \
               --head "$BRANCH" \
-              --title "chore(data): sync DBLP metadata" \
-              --body "Automated weekly AAMAS metadata synchronization from configured DBLP exports."
+              --title "chore(data): sync DBLP metadata ($SYNC_YEAR)" \
+              --body "Automated AAMAS metadata synchronization from configured DBLP exports. Requested year: $SYNC_YEAR."
           fi
       - name: Report incomplete upstream synchronization
         if: steps.synchronize.outcome == 'failure'

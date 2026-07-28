@@ -4,12 +4,15 @@
 Systems）的可审计论文语料库。仓库将“官方元数据”“自动分类草稿”和“人工核验
 笔记”分开维护，供 PaperCompass 的趋势分析、选题查新和研究方向评估使用。
 
-## 当前范围
+## 配置范围
 
-- DBLP 元数据：AAMAS 2022–2025
+- DBLP 元数据源：AAMAS 2022–2025
 - IFAAMAS 官方 proceedings：AAMAS 2026（等待 DBLP 编目后并入自动同步）
 - 深度笔记优先级：多智能体规划/调度/资源分配，以及可信、安全、验证和工程
 - 不在仓库中镜像论文 PDF
+
+`data/papers/` 中出现相应年份文件才表示该届已完成首次全量同步；仅在
+`data/sources.json` 中配置来源不代表数据已经抓取成功。
 
 ## 目录
 
@@ -49,6 +52,9 @@ python3 -m unittest discover -s tests
 ```bash
 python3 scripts/sync_dblp.py --year 2025
 ```
+
+GitHub Actions 的手动入口也支持选择单个年份。每个年份使用独立的
+`automation/dblp-sync-<year>` PR 分支，避免一次上游故障阻塞其他年份。
 
 ## 状态含义
 
