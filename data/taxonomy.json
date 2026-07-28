@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "topics": {
+    "generative_agents": "生成式与大语言模型智能体",
+    "marl_coordination": "多智能体强化学习、协调与通信",
+    "planning_scheduling": "多智能体搜索、规划与调度",
+    "resource_allocation": "资源分配、匹配与社会选择",
+    "game_theory_mechanism": "博弈论、机制设计与拍卖",
+    "argumentation_reasoning": "论证、知识表示与自动推理",
+    "norms_trust_governance": "规范、信任、声誉与治理",
+    "safety_verification": "安全、验证、运行时保障与可解释性",
+    "human_agent_interaction": "人机协作与社会智能",
+    "robotics_embodied": "多机器人与具身智能体",
+    "agent_engineering": "智能体架构、协议与软件工程",
+    "applications": "领域应用与部署研究",
+    "unclassified": "尚未分类"
+  },
+  "tracks": [
+    "research",
+    "extended_abstract",
+    "blue_sky",
+    "doctoral_consortium",
+    "demo",
+    "industry",
+    "jaamas",
+    "keynote",
+    "unclassified"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "conference": "AAMAS",
+  "sources": [
+    {
+      "year": 2022,
+      "provider": "DBLP",
+      "kind": "bibliographic_metadata",
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/atal/aamas2022.bht%3A&h=1000&format=json"
+    },
+    {
+      "year": 2023,
+      "provider": "DBLP",
+      "kind": "bibliographic_metadata",
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/atal/aamas2023.bht%3A&h=1000&format=json"
+    },
+    {
+      "year": 2024,
+      "provider": "DBLP",
+      "kind": "bibliographic_metadata",
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/atal/aamas2024.bht%3A&h=1000&format=json"
+    },
+    {
+      "year": 2025,
+      "provider": "DBLP",
+      "kind": "bibliographic_metadata",
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/ifaamas/aamas2025.bht%3A&h=1000&format=json"
+    },
+    {
+      "year": 2026,
+      "provider": "IFAAMAS",
+      "kind": "official_proceedings",
+      "url": "https://www.ifaamas.org/Proceedings/aamas2026/",
+      "sync": "manual_until_dblp_indexed"
+    }
+  ]
+}
