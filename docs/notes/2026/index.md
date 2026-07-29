@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">562</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">564</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -23,15 +23,15 @@ tags:
 <div class="conf-pills">
 <span class="pill">智能体架构、协议与软件工程 <b>271</b></span>
 <span class="pill">安全、验证、运行时保障与可解释性 <b>189</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>176</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>175</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>173</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>177</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>177</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>174</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>121</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>118</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>119</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>113</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>102</b></span>
-<span class="pill">多机器人与具身智能体 <b>96</b></span>
-<span class="pill">领域应用与部署研究 <b>80</b></span>
+<span class="pill">多机器人与具身智能体 <b>97</b></span>
+<span class="pill">领域应用与部署研究 <b>82</b></span>
 <span class="pill">人机协作与社会智能 <b>70</b></span>
 </div>
 
@@ -877,6 +877,9 @@ tags:
 **[Learning Truthful Mechanisms without Discretization](./tedi-truthful-mechanisms-no-discretization.md)**
 : Yunxuan Ma, Steven, Zhijian Duan, Yukun Cheng, Xiaotie Deng · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 智能体架构、协议与软件工程
 
+**[Learning-Based Policy Design for Resource Planning and Pricing in Heterogeneous Multi-Leader-Multi-Follower Systems](./learning-policy-resource-planning-pricing-mlmf.md)**
+: Niloofar Aminikalibar · doctoral_consortium · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 多智能体强化学习、协调与通信 · 领域应用与部署研究
+
 **[LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation](./legomem-procedural-memory-workflow-automation.md)**
 : Dongge Han, Camille Couturier, Daniel Madrigal Diaz, Xuchao Zhang, Victor Rühle, Saravan Rajmohan · research · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
 
@@ -1149,6 +1152,9 @@ tags:
 
 **[Optimizing Pool Testing for Epidemic Surveillance](./pool-testing-epidemic-surveillance.md)**
 : Jack Heavey, Abhijin Adiga, Anil Vullikanti · research · 资源分配、匹配与社会选择 · 多智能体搜索、规划与调度 · 领域应用与部署研究
+
+**[Optimizing Urban Route Choice for Autonomous Vehicles using Multi-Agent Reinforcement Learning](./av-urban-route-choice-marl.md)**
+: Anastasia Psarou · doctoral_consortium · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 领域应用与部署研究
 
 **[OSIL: Learning Offline Safe Imitation Policies with Safety Inferred from Non-preferred Trajectories](./offline-safe-imitation-policies.md)**
 : Returaj Burnwal, Nirav Pravinbhai Bhatt, Balaraman Ravindran · research · 安全、验证、运行时保障与可解释性 · 多智能体强化学习、协调与通信 · 多机器人与具身智能体
