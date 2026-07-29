@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">584</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">586</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>285</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>198</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>184</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>181</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>287</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>199</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>185</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>182</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>180</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>130</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>123</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>124</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
 <span class="pill">多机器人与具身智能体 <b>99</b></span>
-<span class="pill">领域应用与部署研究 <b>87</b></span>
-<span class="pill">人机协作与社会智能 <b>76</b></span>
+<span class="pill">领域应用与部署研究 <b>88</b></span>
+<span class="pill">人机协作与社会智能 <b>77</b></span>
 </div>
 
 ## 全部笔记
@@ -87,6 +87,9 @@ tags:
 
 **[AC-MASAC: An Attentive Curriculum Learning Framework for Heterogeneous UAV Swarm Coordination](./ac-masac-heterogeneous-uav-swarm-coordination.md)**
 : Wanhao Liu, Junhong Dai, Yixuan Zhang, Shengyun Yin, Panshuo Li · research · 多智能体强化学习、协调与通信 · 多机器人与具身智能体 · 多智能体搜索、规划与调度
+
+**[Accelerated Adaptive Decision Making for Autonomous Agents: Optimization and Coverage](./accelerated-adaptive-decision-making-optimization-coverage.md)**
+: Zakaria Shams Siam · doctoral_consortium · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 资源分配、匹配与社会选择
 
 **[Accelerating Action-Robust Deep Deterministic Policy Gradient via Parallel Optimization](./action-robust-ddpg-parallel-optimization.md)**
 : SeongIn Kim, Takeshi Shibuya · research · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信
@@ -735,6 +738,9 @@ tags:
 
 **[GreenLine: A Delay-tolerant Mechanism Design for Grid Capacity Allocation](./greenline-grid-capacity-allocation.md)**
 : Athina Georgara, Jayati Deshmukh, Sarvapali D. Ramchurn · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理
+
+**[Grounded Communication Policies in Heterogeneous Agent Reinforcement Learning](./grounded-communication-policies-heterogeneous-agent-rl.md)**
+: Aju Ani Justus · doctoral_consortium · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性
 
 **[Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](./iltn-grounding-compositionality-neurosymbolic.md)**
 : Mahnoor Shahid, Hannes Rothe · research · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性
