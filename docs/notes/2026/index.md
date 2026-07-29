@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">566</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">568</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>271</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>190</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>272</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>192</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>178</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>178</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>177</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>175</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>122</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>123</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>120</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>114</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>103</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>115</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>104</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
 <span class="pill">领域应用与部署研究 <b>83</b></span>
-<span class="pill">人机协作与社会智能 <b>70</b></span>
+<span class="pill">人机协作与社会智能 <b>71</b></span>
 </div>
 
 ## 全部笔记
@@ -270,6 +270,9 @@ tags:
 
 **[Causal Domain Adaptation: An Information Bottleneck Approach](./causal-domain-adaptation-information-bottleneck.md)**
 : Mohammad Ali Javidian · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理
+
+**[Causal Learning and Reasoning in Multi-Agent Reinforcement Learning](./causal-learning-reasoning-marl.md)**
+: Giovanni Briglia · doctoral_consortium · 多智能体强化学习、协调与通信 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
 
 **[CentaurMD: Confidence-Aware Human-AI Decision Fusion for Multi-Label Disease Diagnosis via Label-Specific MoE](./centaurmd-human-ai-diagnosis-fusion.md)**
 : Youcheng Zhang, Hui Wang, Jiaqi Liu, Yao Zhang, Zhiwen Yu, Bin Guo · research · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
@@ -1458,6 +1461,9 @@ tags:
 
 **[Social Welfare Maximization in Approval-Based Committee Voting under Uncertainty](./approval-voting-uncertainty-welfare.md)**
 : Haris Aziz, Yuhang Guo, venkateswara Rao Kagita, Baharak Rastegari, Mashbat Suzuki · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理
+
+**[Socio-Normative Trustworthiness of LLM Agents: Evaluating Autonomy Support and Representational Fairness Across Languages and Identities](./socio-normative-trustworthiness-llm-advisors.md)**
+: Saba Ghanbari Haez · doctoral_consortium · 生成式与大语言模型智能体 · 人机协作与社会智能 · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性
 
 **[SocraticAgent: An Autonomous Agent for Unlocking Latent Knowledge in LLMs](./socraticagent-unlocking-latent-knowledge-llms.md)**
 : Yang Yan, Yu Lu, Renjun Xu, Zhenzhong Lan · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 生成式与大语言模型智能体
