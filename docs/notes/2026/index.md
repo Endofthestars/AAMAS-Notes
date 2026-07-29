@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">576</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">578</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>279</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>281</b></span>
 <span class="pill">安全、验证、运行时保障与可解释性 <b>194</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>181</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>182</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>180</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>179</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>126</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>127</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>106</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>108</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
-<span class="pill">领域应用与部署研究 <b>84</b></span>
-<span class="pill">人机协作与社会智能 <b>72</b></span>
+<span class="pill">领域应用与部署研究 <b>85</b></span>
+<span class="pill">人机协作与社会智能 <b>73</b></span>
 </div>
 
 ## 全部笔记
@@ -1111,6 +1111,9 @@ tags:
 **[Neurosymbolic Active Goal Recognition in Partially Observable Environments](./neurosymbolic-active-goal-recognition.md)**
 : Chenyuan Zhang, Sukai Huang, Hamid Rezatofighi, Mor Vered, Buser Say · research · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 多智能体搜索、规划与调度
 
+**[Neurosymbolic Framework for building Robust, Efficient, and Explainable Multi-Agent Enterprise Systems](./neurosymbolic-enterprise-mas-framework.md)**
+: Ritvik Garimella · doctoral_consortium · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 领域应用与部署研究 · 生成式与大语言模型智能体
+
 **[No Future for LLM-based Agents without Formal Dialogue Verification](./formal-dialogue-verification-llm-agents.md)**
 : Juan Carlos Nieves, Andreas Brännström, Esteban Guerrero · blue_sky · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 生成式与大语言模型智能体 · 规范、信任、声誉与治理
 
@@ -1296,6 +1299,9 @@ tags:
 
 **[RAC: Request-adaptive Configuration for Efficient Speculative Decoding](./request-adaptive-speculative-decoding.md)**
 : Jinhao Sheng, Xiao Huang, Hongxin Wei, Feng Zhou · research · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 多智能体搜索、规划与调度
+
+**[Raise BDI Agents, First Steps](./raise-bdi-agents-first-steps.md)**
+: Andrea Gatti · doctoral_consortium · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 论证、知识表示与自动推理 · 生成式与大语言模型智能体
 
 **[Ratio-Based Signaling for Source-Victim Separation in Swarm Fault Detection](./ratio-signaling-swarm-fault-detection.md)**
 : Longyin Cui · research · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
