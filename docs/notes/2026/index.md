@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">548</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">550</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -22,17 +22,17 @@ tags:
 
 <div class="conf-pills">
 <span class="pill">智能体架构、协议与软件工程 <b>263</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>182</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>183</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>174</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>173</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>167</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>117</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>114</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>102</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>96</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>168</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>118</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>115</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>104</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>97</b></span>
 <span class="pill">多机器人与具身智能体 <b>95</b></span>
 <span class="pill">领域应用与部署研究 <b>78</b></span>
-<span class="pill">人机协作与社会智能 <b>67</b></span>
+<span class="pill">人机协作与社会智能 <b>68</b></span>
 </div>
 
 ## 全部笔记
@@ -156,6 +156,9 @@ tags:
 
 **[Approximating Nash Equilibria in General-Sum Games via Meta-Learning](./meta-learning-general-sum-nash.md)**
 : David Sychrovský, Christopher Solinas, Revan MacQueen, Kevin Wang, James R. Wright, Nathan R. Sturtevant, Michael Bowling · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
+
+**[Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us](./argumentative-human-ai-decision-making.md)**
+: Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh · blue_sky · 论证、知识表示与自动推理 · 人机协作与社会智能 · 生成式与大语言模型智能体 · 规范、信任、声誉与治理
 
 **[Assessing VLM-Driven Semantic-Affordance Inference for Non-Humanoid Robot Morphologies](./vlm-semantic-affordance-nonhumanoid-robots.md)**
 : Jess Jones, Sabine Hauert, Raul Santos-Rodriguez · research · 多机器人与具身智能体 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性
@@ -750,6 +753,9 @@ tags:
 
 **[Imperfect-Information Games on Quantum Computers: A Case Study in Skat](./quantum-imperfect-information-skat.md)**
 : Ulrich Armbrüster, Stefan Edelkamp, Gabriel Maresch, Erik Schulze · research · 博弈论、机制设计与拍卖 · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理
+
+**[Incentive-Aware AI Safety via Strategic Resource Allocation: A Stackelberg Security Games Perspective](./incentive-aware-ai-safety-ssg.md)**
+: Cheol Woo Kim, Davin Choo, Tzeh Yuan Neoh, Milind Tambe · blue_sky · 安全、验证、运行时保障与可解释性 · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理
 
 **[Incentivizing Black-Box Model Sharing with Fair Rewards and Payoffs](./blackbox-model-sharing-fair-rewards.md)**
 : Wenyang Hu, Xinyi Xu, See-Kiong Ng, Bryan Kian Hsiang Low · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理
