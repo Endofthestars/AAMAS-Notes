@@ -9,7 +9,7 @@ Systems）的可审计论文语料库。仓库将“官方元数据”“自动�
 - DBLP 元数据源：AAMAS 2022–2025
 - IFAAMAS 官方 proceedings：AAMAS 2026（DBLP 编目前使用官方目录）
 - 首次快照：2022–2026 共 2,419 条会议内容记录
-- 首批正文级核验：3 篇 `reviewed` 笔记
+- 正文级核验：`reviewed` 笔记持续按批次更新
 - 深度笔记优先级：多智能体规划/调度/资源分配，以及可信、安全、验证和工程
 - 不在仓库中镜像论文 PDF
 
@@ -46,17 +46,20 @@ scripts/
 
 ## 阅读站与 GitHub Pages
 
-仓库提供一个无外部依赖的静态阅读站：按主题浏览 `reviewed` 笔记，并展示每篇笔记的
-审核路径、风险等级与官方论文链接。它借鉴 PaperNote 的“主题索引 → 论文 → 笔记”阅读
-方式，但不复制其内容或结构。
+阅读站直接复用 [zhaoyang97/Paper-Notes](https://github.com/zhaoyang97/Paper-Notes)
+的 MkDocs Material 前端，包括主题模板、首页卡片、侧栏、暗色模式和搜索页；AAMAS
+元数据、主题体系与 reviewed 笔记仍由本仓库独立维护。前端改编遵循
+[CC BY-NC-SA 4.0](LICENSE)，并在页面页脚保留来源说明。
 
 在 GitHub 仓库的 **Settings → Pages** 中将发布源设为 **GitHub Actions**。随后每次推送
 到 `main` 的笔记、元数据或站点变更都会构建并部署；也可在 Actions 中手动运行
-`Deploy reading site to GitHub Pages`。本地预览构建：
+`Deploy Paper Notes UI to GitHub Pages`。本地预览构建：
 
 ```bash
-python3 site/build.py
-python3 -m http.server --directory site/_site 8000
+python3 -m venv .venv
+.venv/bin/pip install mkdocs-material
+python3 scripts/generate_site_indexes.py
+.venv/bin/mkdocs serve
 ```
 
 私有仓库能否对外发布取决于 GitHub 套餐和 Pages 可见性设置；若发布受限，工作流仍会生成
@@ -122,7 +125,8 @@ gh pr create \
 - DBLP 书目元数据以 CC0 提供；每个快照保留其导出 URL。
 - IFAAMAS/ACM 论文版权仍归相应权利人。本仓库默认只保存元数据、链接和原创
   解读，不重新发布 PDF。
-- 当前仓库尚未授予内容再利用许可；转为公开仓库前将单独确定原创笔记许可。
+- 本仓库采用 CC BY-NC-SA 4.0；复用或改编须署名、仅限非商业用途并以相同协议共享。
+- 前端来源与改动范围见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 与 PaperCompass 集成
 

@@ -1,12 +1,21 @@
-name: Deploy reading site to GitHub Pages
+name: Deploy Paper Notes UI to GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
       - "data/**"
+      - "docs/*.md"
       - "docs/notes/**"
-      - "site/**"
+      - "docs/stylesheets/**"
+      - "docs/javascripts/**"
+      - "docs/assets/**"
+      - "overrides/**"
+      - "hooks/**"
+      - "mkdocs.yml"
+      - "scripts/generate_site_indexes.py"
+      - "LICENSE"
+      - "THIRD_PARTY_NOTICES.md"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -24,12 +33,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.12"
-      - uses: actions/configure-pages@v5
-      - run: python3 site/build.py
-      - uses: actions/upload-pages-artifact@v4
+          python-version: "3.11"
+      - run: pip install mkdocs-material
+      - run: python3 scripts/generate_site_indexes.py
+      - run: mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site/_site
   deploy:
@@ -40,4 +52,6 @@ jobs:
     needs: build
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 1800000

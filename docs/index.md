@@ -1,30 +1,118 @@
-# AAMAS 论文语料
+---
+title: "AAMAS Paper Notes · 可审计多智能体论文解读"
+description: "AAMAS 2022–2026 官方元数据与正文级 reviewed 阅读笔记。"
+tags:
+  - "AAMAS"
+  - "多智能体系统"
+  - "论文笔记"
 
-本目录保存经过人工整理或审核的阅读笔记。规范化书目元数据位于
-`data/papers/`。
+hide:
+  - toc
+  - navigation
+---
 
-## 建设顺序
+<!-- 由 scripts/generate_site_indexes.py 自动生成 -->
 
-1. AAMAS 2022–2026 全量元数据（已建立首次快照）
-2. 多智能体规划、调度与资源分配
-3. 安全、验证、运行时保障与智能体工程
-4. 其余 AAMAS 专属方向
+<div class="hero" markdown>
 
-当前已有 8 篇笔记完成正文级证据核验；其余记录仍保持 `metadata_only`。
+# 📚 AAMAS 论文解读
 
-## 首批 reviewed 笔记
+<p class="hero-subtitle">Autonomous Agents · Multiagent Systems · 每篇 reviewed 笔记均公开核验路径与证据边界。<br>覆盖 AAMAS 2022–2026，持续按批次更新。</p>
 
-| 论文 | 方向 | 核验范围 |
-|---|---|---|
-| [The Multi-Agent Off-Switch Game](notes/2026/multi-agent-off-switch-game.md) | 安全、博弈机制 | 定义、定理、构造、局限 |
-| [Contrastive Explanations of BDI Agents](notes/2026/contrastive-explanations-bdi-agents.md) | 可解释性、智能体工程 | 方法、人因实验、局限 |
-| [Scaling Multi-Agent Epistemic Planning through GNN-Derived Heuristics](notes/2026/gnn-epistemic-planning-heuristics.md) | 认知规划、学习启发式 | 方法、Tables 1–5、局限 |
-| [µACP](notes/2026/muacp-resource-constrained-agent-communication.md) | 通信、形式化推理 | 定理、验证、理论条件 |
-| [Multi UAVs Preflight Planning](notes/2026/multi-uav-preflight-planning.md) | 规划调度、应用 | 建模、Table 2–3、局限 |
-| [ReAcTree](notes/2026/reactree-llm-agent-planning.md) | 生成式智能体、规划 | 方法、Tables 1–4、失败分析 |
-| [Multi-Robot BDI Architecture](notes/2026/multi-robot-bdi-continuous-planning.md) | 具身机器人、智能体工程 | 架构、四配置仿真、局限 |
-| [Three-Layer RL Task Allocation](notes/2026/three-layer-rl-task-allocation.md) | 协调、规划调度 | 方法、Table 2、可比性边界 |
+<div class="hero-stats">
+<div class="stat"><span class="stat-number">2419</span><span class="stat-label">条论文元数据</span></div>
+<div class="stat"><span class="stat-number">548</span><span class="stat-label">篇 reviewed 笔记</span></div>
+<div class="stat"><span class="stat-number">12</span><span class="stat-label">个已审核主题</span></div>
+</div>
 
-首批三篇采用 Spark 初稿和 Sol 复核。2026-pilot-01 的五篇采用 Spark 双轮独立审校；
-其中 µACP 的高风险定理条件额外由 Terra 定点复核。它们不是人类领域专家签字，也不代表
-完成独立实验复现。
+<a class="github-link" href="notes/">开始阅读 reviewed 笔记</a>
+
+</div>
+
+---
+
+<div class="conf-grid" markdown>
+
+<div class="conf-card" markdown>
+
+### 🤖 [AAMAS 2026](notes/2026/)
+
+<div class="conf-count">642 条元数据 · 548 篇 reviewed</div>
+
+<div class="area-groups"><div class="area-group">
+<div class="area-group-label">已审核主题</div>
+<div class="area-tags">
+<a class="area-tag" href="notes/2026/">智能体架构、协议与软件工程 263</a>
+<a class="area-tag" href="notes/2026/">安全、验证、运行时保障与可解释性 182</a>
+<a class="area-tag" href="notes/2026/">多智能体强化学习、协调与通信 174</a>
+<a class="area-tag" href="notes/2026/">多智能体搜索、规划与调度 173</a>
+<a class="area-tag" href="notes/2026/">博弈论、机制设计与拍卖 167</a>
+<a class="area-tag" href="notes/2026/">论证、知识表示与自动推理 117</a>
+<a class="area-tag" href="notes/2026/">资源分配、匹配与社会选择 114</a>
+<a class="area-tag" href="notes/2026/">规范、信任、声誉与治理 102</a>
+</div>
+</div></div>
+
+</div>
+
+<div class="conf-card" markdown>
+
+### 🧭 [AAMAS 2025](notes/)
+
+<div class="conf-count">480 条元数据 · 0 篇 reviewed</div>
+
+<div class="area-groups"><div class="area-group">
+<div class="area-group-label">已审核主题</div>
+<div class="area-tags">
+<span class="area-tag">元数据已收录 · reviewed 待建设</span>
+</div>
+</div></div>
+
+</div>
+
+<div class="conf-card" markdown>
+
+### 🧠 [AAMAS 2024](notes/)
+
+<div class="conf-count">461 条元数据 · 0 篇 reviewed</div>
+
+<div class="area-groups"><div class="area-group">
+<div class="area-group-label">已审核主题</div>
+<div class="area-tags">
+<span class="area-tag">元数据已收录 · reviewed 待建设</span>
+</div>
+</div></div>
+
+</div>
+
+<div class="conf-card" markdown>
+
+### 🕸️ [AAMAS 2023](notes/)
+
+<div class="conf-count">529 条元数据 · 0 篇 reviewed</div>
+
+<div class="area-groups"><div class="area-group">
+<div class="area-group-label">已审核主题</div>
+<div class="area-tags">
+<span class="area-tag">元数据已收录 · reviewed 待建设</span>
+</div>
+</div></div>
+
+</div>
+
+<div class="conf-card" markdown>
+
+### 📚 [AAMAS 2022](notes/)
+
+<div class="conf-count">307 条元数据 · 0 篇 reviewed</div>
+
+<div class="area-groups"><div class="area-group">
+<div class="area-group-label">已审核主题</div>
+<div class="area-tags">
+<span class="area-tag">元数据已收录 · reviewed 待建设</span>
+</div>
+</div></div>
+
+</div>
+
+</div>

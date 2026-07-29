@@ -1,0 +1,101 @@
+site_name: 📚 AAMAS Paper Notes
+site_description: AAMAS 2022–2026 可审计论文目录与 reviewed 阅读笔记
+site_url: https://endofthestars.github.io/AAMAS-Notes/
+repo_url: https://github.com/Endofthestars/AAMAS-Notes
+repo_name: Star on GitHub
+docs_dir: docs
+site_dir: site/_site
+
+validation:
+  nav:
+    omitted_files: ignore
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  favicon: assets/favicon.svg
+  icon:
+    logo: material/book-open-variant
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.prune
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: 切换亮色模式
+  font: false
+
+nav:
+  - 🏠 首页: index.md
+  - 🔎 搜索: search.md
+  - 📚 Reviewed 笔记:
+      - 笔记总览: notes/index.md
+      - AAMAS 2026: notes/2026/index.md
+  - 🧭 审核路由: review-routing.md
+
+hooks:
+  - hooks/slim_search_index.py
+  - hooks/set_build_date.py
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - def_list
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 2
+
+extra_javascript:
+  - javascripts/title-link.js
+  - javascripts/mathjax.js
+  - javascripts/search-page.js
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: AAMAS Notes · 原创核验笔记仅供学术参考 · 前端改编自 Paper Notes
+
+extra:
+  social: []
+  generator: false
+  bing_site_verification: ""
+  cloudflare_analytics_token: ""
