@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">568</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">570</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,15 +21,15 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>272</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>274</b></span>
 <span class="pill">安全、验证、运行时保障与可解释性 <b>192</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>178</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>178</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>175</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>123</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>120</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>177</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>124</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>115</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>104</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>105</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
 <span class="pill">领域应用与部署研究 <b>83</b></span>
 <span class="pill">人机协作与社会智能 <b>71</b></span>
@@ -369,6 +369,9 @@ tags:
 
 **[Cost-Aware Best Arm Identification via Dueling Feedback with Applications to Large Language Models](./cost-aware-best-arm-dueling-feedback.md)**
 : Sarvesh Gharat, Nikhil Karamchandani, Jayakrishnan Nair · research · 博弈论、机制设计与拍卖 · 智能体架构、协议与软件工程 · 资源分配、匹配与社会选择
+
+**[Cost-Aware Model Selection and Adaptive Reasoning in Large Language Models via Online Learning](./cost-aware-model-selection-adaptive-llm-reasoning.md)**
+: Sarvesh Gharat · doctoral_consortium · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖
 
 **[CQGen-MAS: A Multi-Agent System for Competency Questions Generation from Ontology](./cqgen-mas-ontology-competency-questions.md)**
 : Fei Du, Huilong An, Feng Li, Li Chen, Weidong Liu · research · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 论证、知识表示与自动推理
@@ -1101,6 +1104,9 @@ tags:
 
 **[Node-Level Federated Learning with Adaptive Personalized Aggregation for Spatio-Temporal Traffic Prediction](./node-level-federated-traffic-prediction.md)**
 : Xiaoying Tu, Ying Lin, Xingjian Lu, Yibing Wang, Bo Hu · research · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 多智能体搜索、规划与调度
+
+**[Non-Bipartite Stable Matching and Beyond](./non-bipartite-stable-matching-beyond.md)**
+: Frederik Glitzner · doctoral_consortium · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
 
 **[Obnoxious Facility Location Problems: Strategyproof Mechanisms Optimizing Lp-Aggregated Utilities and Costs](./obnoxious-facility-location-lp-mechanisms.md)**
 : Hau Chan, Jianan Lin, Chenhao Wang · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择
