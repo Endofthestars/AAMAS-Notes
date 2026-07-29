@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">582</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">584</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>283</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>196</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>285</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>198</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>184</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>181</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>180</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>180</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>128</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>130</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>123</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
 <span class="pill">多机器人与具身智能体 <b>99</b></span>
 <span class="pill">领域应用与部署研究 <b>87</b></span>
-<span class="pill">人机协作与社会智能 <b>75</b></span>
+<span class="pill">人机协作与社会智能 <b>76</b></span>
 </div>
 
 ## 全部笔记
@@ -144,6 +144,9 @@ tags:
 
 **[An Algebraic Structuring of Epistemic States for BDI Agents in Uncertain Environments](./abelian-epistemic-states-bdi-uncertainty.md)**
 : Charles A. N. Costa, Marlo Souza, Célia Ghedini Ralha · research · 论证、知识表示与自动推理 · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程
+
+**[An Algebraic Structuring of Epistemic States for BDI Agents in Uncertain Environments](./algebraic-epistemic-states-bdi-agents-dc.md)**
+: Charles A. N. Costa · doctoral_consortium · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
 
 **[An ML-BDI Reasoner to Support Crime Investigation in Digital Forensics](./ml-bdi-digital-forensics-occupancy.md)**
 : Guilherme Dall'Agnol Deconto, Leonardo dos Santos Teixeira, Roben Castagna Lunardi, Rafael C. Cardoso, Felipe Meneguzzi, Avelino Francisco Zorzo · research · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 论证、知识表示与自动推理
@@ -573,6 +576,9 @@ tags:
 
 **[Explainable Representation of Finite-Memory Policies for POMDPs using Decision Trees](./explainable-finite-memory-pomdp-decision-trees.md)**
 : Muqsit Azeem, Debraj Chakraborty, Sudeep Kanav, Jan Křetinský · research · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
+
+**[Explaining Agent Intentions](./explaining-agent-intentions.md)**
+: Sara Montese · doctoral_consortium · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
 
 **[Exploring Cognitive Bias Impact, Detection and Mitigation in Large Language Models](./cognitive-bias-llm-detection-mitigation.md)**
 : Ana Gutiérrez-Mandingorra, Stella Heras, Javier Palanca, Vicent Botti · research · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理
