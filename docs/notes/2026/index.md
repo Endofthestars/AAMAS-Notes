@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">578</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">580</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -22,17 +22,17 @@ tags:
 
 <div class="conf-pills">
 <span class="pill">智能体架构、协议与软件工程 <b>281</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>194</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>182</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>195</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>183</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>180</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>179</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>127</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>128</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>108</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>109</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
-<span class="pill">领域应用与部署研究 <b>85</b></span>
-<span class="pill">人机协作与社会智能 <b>73</b></span>
+<span class="pill">领域应用与部署研究 <b>87</b></span>
+<span class="pill">人机协作与社会智能 <b>75</b></span>
 </div>
 
 ## 全部笔记
@@ -150,6 +150,9 @@ tags:
 
 **[ANN-CMCGS: Generalizing Continuous Monte-Carlo Graph Search with Approximate Nearest Neighbors](./ann-cmcgs.md)**
 : Christoph Scherer, Wolfgang Hönig · research · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 智能体架构、协议与软件工程
+
+**[Application of Artificial Intelligence for the Retrieval, Processing and Generation of Knowledge from Clinical Data](./clinical-argumentation-mas-knowledge.md)**
+: Leire Villarroya Villarroya-Martínez · doctoral_consortium · 论证、知识表示与自动推理 · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性 · 人机协作与社会智能
 
 **[Approximating Electoral Control Problems](./approximating-electoral-control.md)**
 : Huy Vu Bui, Michael C. Chavrimootoo, Kien T. Le, Son M. Nguyen · research · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理 · 论证、知识表示与自动推理
@@ -1668,6 +1671,9 @@ tags:
 
 **[Too Many Specialists: Emergent Inefficiencies and Bottlenecks for Multi-agent Ad-hoc Collaboration](./specialists-bottlenecks-adhoc-collaboration.md)**
 : Benjamin Panny, Shashank Mehrotra, Zahra Zahedi, Teruhisa Misu, Kumar Akash · research · 多智能体强化学习、协调与通信 · 人机协作与社会智能 · 智能体架构、协议与软件工程
+
+**[Toward High-Fidelity Multi-Agent Recommendation: An Agentic Design Framework Integrating RecoWorld and LLMs](./agentic-recommendation-recoworld-llm.md)**
+: Ionut-Dragos Neremzoiu · doctoral_consortium · 生成式与大语言模型智能体 · 领域应用与部署研究 · 多智能体强化学习、协调与通信 · 人机协作与社会智能
 
 **[Toward Recognizing Social Media Recommenders under Absent Recommendations: A Graph Neural Network-based Approach](./smarr-gnn-recognizing-hidden-recommenders.md)**
 : Sabrina Guidotti, Gregor Donabauer, Davide Taibi, Giuseppe Vizzari, Udo Kruschwitz, Dimitri Ognibene · research · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
