@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">550</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">552</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,15 +21,15 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>263</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>183</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>265</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>184</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>174</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>173</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>168</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>118</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>174</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>169</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>119</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>115</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>104</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>97</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>105</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>98</b></span>
 <span class="pill">多机器人与具身智能体 <b>95</b></span>
 <span class="pill">领域应用与部署研究 <b>78</b></span>
 <span class="pill">人机协作与社会智能 <b>68</b></span>
@@ -901,6 +901,9 @@ tags:
 **[MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models](./ma-safediffuser-safe-multiagent-planning.md)**
 : Kiran Ravish, Ankita Kushwaha, Preeti, Pawan Kumar · research · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
 
+**[MACC: Multi-Agent Collaborative Competition for Scientific Exploration](./macc-multi-agent-scientific-exploration.md)**
+: Satoshi Oyama, Yuko Sakurai, Hisashi Kashima · blue_sky · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 规范、信任、声誉与治理 · 博弈论、机制设计与拍卖
+
 **[Macro-Programming Multi-Agent Systems: A Framework for Artificial Collective Intelligence](./macro-programming-multi-agent-systems.md)**
 : Roberto Casadei · blue_sky · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 多智能体强化学习、协调与通信
 
@@ -1539,6 +1542,9 @@ tags:
 
 **[The Complexity of Strategic Behavior in Primary Elections](./complexity-strategic-behavior-primary-elections.md)**
 : Colin Cleveland, Bart de Keijzer, Maria Polukarov · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 规范、信任、声誉与治理
+
+**[The Dynamic Turn in Strategy Logics](./dynamic-turn-strategy-logics.md)**
+: Rustam Galimullin, Maksim Gladyshev, Munyque Mittelmann, Nima Motamed · blue_sky · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度
 
 **[The Facility Location Problem with Aleatory Agents](./facility-location-aleatory-agents.md)**
 : Gennaro Auricchio, Jie Zhang · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 多智能体搜索、规划与调度
