@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">586</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">588</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,17 +21,17 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>287</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>199</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>185</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>182</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>288</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>201</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>186</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>183</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>180</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>130</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>124</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
-<span class="pill">多机器人与具身智能体 <b>99</b></span>
-<span class="pill">领域应用与部署研究 <b>88</b></span>
+<span class="pill">多机器人与具身智能体 <b>100</b></span>
+<span class="pill">领域应用与部署研究 <b>89</b></span>
 <span class="pill">人机协作与社会智能 <b>77</b></span>
 </div>
 
@@ -678,6 +678,9 @@ tags:
 
 **[From Competition to Collaboration: Designing Sustainable Mechanisms Between LLMs and Online Forums](./llm-online-forum-sustainable-mechanisms.md)**
 : Niv Fono, Yftah Ziser, Omer Ben-Porat · research · 博弈论、机制设计与拍卖 · 生成式与大语言模型智能体 · 规范、信任、声誉与治理
+
+**[From Fault Detection to Agency: A Framework for Industrial Autonomy](./fault-detection-agency-industrial-autonomy.md)**
+: Dhiraj Neupane · doctoral_consortium · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
 
 **[From Knowledge to Causality: Self-Supervised Representation Learning for Granger Causal Discovery in Groups of Time Series](./group-time-series-granger-causality.md)**
 : Bo Liu, Hongyan Li, Shenda Hong · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 领域应用与部署研究
@@ -1467,6 +1470,9 @@ tags:
 
 **[Scalable Knothe--Rosenblatt-like Heuristic Transportation Plans for Imaging Problems](./kr-like-heuristic-transportation-imaging.md)**
 : Gennaro Auricchio, Min Lin, Lingxuan Zhou, Zhaori Guo, Zhongqi Cai · research · 智能体架构、协议与软件工程 · 资源分配、匹配与社会选择 · 领域应用与部署研究
+
+**[Scalable Strategies for Cooperative and Competitive Multi-Agent Systems](./scalable-strategies-cooperative-competitive-mas.md)**
+: Grant Douglas · doctoral_consortium · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性
 
 **[Scalable Uncertainty-Aware Decision Frameworks for Energy-Mobility Cyber-Physical Systems](./uncertainty-aware-energy-mobility-cps.md)**
 : Rishav Sen · doctoral_consortium · 领域应用与部署研究 · 多智能体搜索、规划与调度 · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖
