@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">574</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">576</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,14 +21,14 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>278</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>193</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>180</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>279</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>194</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>181</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>180</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>178</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>125</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>179</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>126</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>116</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>106</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
 <span class="pill">领域应用与部署研究 <b>84</b></span>
@@ -316,6 +316,9 @@ tags:
 **[Comparing the Fairness of Recursively Balanced Picking Sequences](./recursively-balanced-picking-sequences.md)**
 : Karen Frilya Celine, Warut Suksompong, Sheung Man Yuen · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理
 
+**[Complexity and Behaviour in Strategic Models of Elections](./complexity-behaviour-strategic-election-models.md)**
+: Colin Cleveland · doctoral_consortium · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 规范、信任、声誉与治理
+
 **[Complexity of (Non-)Convergence in Iterative Voting](./iterative-voting-nonconvergence-complexity.md)**
 : Paul W. Goldberg, Marios Mavronicolas, Tomasz Was · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性
 
@@ -363,6 +366,9 @@ tags:
 
 **[Control in Hedonic Games](./control-in-hedonic-games.md)**
 : Jiehua Chen, Jakob Guttmann, Merisa Mustajbašić, Sofia Simola · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理
+
+**[Cooperative Multi-Agent Alignment via Boolean Task Algebras and Team Morality Chains](./cooperative-alignment-boolean-task-team-morality.md)**
+: Simon Rosen · doctoral_consortium · 多智能体强化学习、协调与通信 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 规范、信任、声誉与治理
 
 **[CoopReflect: Towards Natural Language Communication for Cooperative Autonomous Driving via Multi-Agent Learning](./coopreflect-natural-language-v2v.md)**
 : Jiaxun Cui, Chen Tang, Jarrett Holtz, Janice Nguyen, Alessandro G. Allievi, Hang Qiu, Peter Stone · research · 多智能体强化学习、协调与通信 · 生成式与大语言模型智能体 · 多机器人与具身智能体 · 领域应用与部署研究
