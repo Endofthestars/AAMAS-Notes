@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">588</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">590</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,17 +21,17 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>288</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>290</b></span>
 <span class="pill">安全、验证、运行时保障与可解释性 <b>201</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>186</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>183</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>188</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>184</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>180</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>130</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>124</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>125</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
-<span class="pill">多机器人与具身智能体 <b>100</b></span>
-<span class="pill">领域应用与部署研究 <b>89</b></span>
+<span class="pill">多机器人与具身智能体 <b>101</b></span>
+<span class="pill">领域应用与部署研究 <b>90</b></span>
 <span class="pill">人机协作与社会智能 <b>77</b></span>
 </div>
 
@@ -315,6 +315,9 @@ tags:
 
 **[Collaborate, Deliberate, Evaluate: How LLM Alignment Affects Coordinated Multi-Agent Outcomes](./llm-alignment-coordinated-multi-agent-outcomes.md)**
 : Abhijnan Nath, Carine Graff, Nikhil Krishnaswamy · research · 生成式与大语言模型智能体 · 人机协作与社会智能 · 多智能体强化学习、协调与通信
+
+**[Collaborative Decision-Making in Ad Hoc Teams](./collaborative-decision-making-ad-hoc-teams.md)**
+: Rupal Nigam · doctoral_consortium · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 多机器人与具身智能体 · 领域应用与部署研究
 
 **[Combinatorial Optimization of Antibody Libraries via Constrained Integer Programming](./protlib-designer-antibody-library-optimization.md)**
 : Conor F. Hayes, Andre R Goncalves, Steven Magana-Zook, Jacob Pettit, Ahmet Can Solak, Daniel Faissol, Mikel Landajuela · research · 领域应用与部署研究 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
@@ -1722,6 +1725,9 @@ tags:
 
 **[Towards Generalisable Imitation Learning Through Conditioned Transition Estimation and Online Behaviour Alignment](./conditioned-transition-imitation-online-alignment.md)**
 : Nathan Gavenski, Matteo Leonetti, Odinaldo Rodrigues · research · 智能体架构、协议与软件工程 · 领域应用与部署研究
+
+**[Towards Multiagent Coordination Under Multiple Objectives and Sparse Rewards](./towards-multiagent-coordination-multiple-objectives-sparse-rewards.md)**
+: Raghav Thakar · doctoral_consortium · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 资源分配、匹配与社会选择 · 智能体架构、协议与软件工程
 
 **[Towards Probabilistic Strategic Timed CTL](./probabilistic-strategic-timed-ctl.md)**
 : Wojciech Jamroga, Marta Kwiatkowska, Wojciech Penczek, Laure Petrucci, Teofil Sidoruk · research · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 多智能体强化学习、协调与通信
