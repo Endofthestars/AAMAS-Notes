@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">564</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">566</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -22,16 +22,16 @@ tags:
 
 <div class="conf-pills">
 <span class="pill">智能体架构、协议与软件工程 <b>271</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>189</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>190</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>178</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>177</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>177</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>174</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>121</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>119</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>113</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>102</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>175</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>122</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>120</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>114</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>103</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
-<span class="pill">领域应用与部署研究 <b>82</b></span>
+<span class="pill">领域应用与部署研究 <b>83</b></span>
 <span class="pill">人机协作与社会智能 <b>70</b></span>
 </div>
 
@@ -1414,6 +1414,9 @@ tags:
 **[Scalable Knothe--Rosenblatt-like Heuristic Transportation Plans for Imaging Problems](./kr-like-heuristic-transportation-imaging.md)**
 : Gennaro Auricchio, Min Lin, Lingxuan Zhou, Zhaori Guo, Zhongqi Cai · research · 智能体架构、协议与软件工程 · 资源分配、匹配与社会选择 · 领域应用与部署研究
 
+**[Scalable Uncertainty-Aware Decision Frameworks for Energy-Mobility Cyber-Physical Systems](./uncertainty-aware-energy-mobility-cps.md)**
+: Rishav Sen · doctoral_consortium · 领域应用与部署研究 · 多智能体搜索、规划与调度 · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖
+
 **[Scaling Multi-Agent Epistemic Planning through GNN-Derived Heuristics](./gnn-epistemic-planning-heuristics.md)**
 : Giovanni Briglia, Francesco Fabiano, Stefano Mariani · research · 多智能体搜索、规划与调度 · 论证、知识表示与自动推理
 
@@ -1638,6 +1641,9 @@ tags:
 
 **[Towards AI-Sympathy using Agents](./towards-ai-sympathy-agents.md)**
 : Sebastian Rodriguez, Brian Logan, John Thangarajah · blue_sky · 人机协作与社会智能 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理
+
+**[Towards Detecting, Mitigating and Explaining Biased and Fallacious Reasoning in Large Language Models](./biased-fallacious-reasoning-llms.md)**
+: Ana Gutiérrez-Mandingorra · doctoral_consortium · 生成式与大语言模型智能体 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理
 
 **[Towards Failure-Resilient Lifelong Learning Agents through Scene Graph-Guided Proactive Replanning](./scene-graph-proactive-replanning-lifelong-agents.md)**
 : Che Rin Yu, Daewon Chae, Dabin Seo, Sangwon Lee, Hyeongwoo IM, Jinkyu Kim · research · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 多机器人与具身智能体
