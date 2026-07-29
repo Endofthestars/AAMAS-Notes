@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">570</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">572</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>274</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>192</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>178</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>178</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>276</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>193</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>179</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>179</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>177</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>124</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>115</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>105</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>106</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
-<span class="pill">领域应用与部署研究 <b>83</b></span>
-<span class="pill">人机协作与社会智能 <b>71</b></span>
+<span class="pill">领域应用与部署研究 <b>84</b></span>
+<span class="pill">人机协作与社会智能 <b>72</b></span>
 </div>
 
 ## 全部笔记
@@ -609,6 +609,9 @@ tags:
 
 **[Fairness over Equality: Correcting Social Incentives in Asymmetric Sequential Social Dilemmas](./fairness-asymmetric-social-dilemmas.md)**
 : Alper Demir, Hüseyin Aydin, Kale-ab Abebe Tessera, David Abel, Stefano V. Albrecht · research · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理 · 博弈论、机制设计与拍卖
+
+**[Faithful Language-Based Explanations for Decision-Making Agents](./faithful-language-explanations-decision-agents.md)**
+: Sahar Admoni · doctoral_consortium · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体
 
 **[Fast and Robust Information Spreading in the Noisy PULL Model](./noisy-pull-information-spreading.md)**
 : Niccolò D'archivio, Amos Korman, Emanuele Natale, Robin Vacus · research · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理 · 论证、知识表示与自动推理
@@ -1275,6 +1278,9 @@ tags:
 
 **[Quality-Diversity for Multi-Agent Reinforcement Learning](./quality-diversity-multi-agent-rl.md)**
 : Hao Chen, Pengyi Li, Bin Zhang, Hu Fu, Zhiwei Xu, Ce Zhang, Xinyue Lu, Guoliang Fan · research · 多智能体强化学习、协调与通信 · 多机器人与具身智能体 · 智能体架构、协议与软件工程
+
+**[Quantum-Enhanced Learning and Control for Multi-agent Systems](./quantum-enhanced-learning-control-mas.md)**
+: Meet Gandhi · doctoral_consortium · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 多智能体搜索、规划与调度
 
 **[R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory](./r-debater-argumentative-memory.md)**
 : Maoyuan Li, Zhongsheng Wang, Haoyuan Li, Jiamou Liu · research · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 人机协作与社会智能
