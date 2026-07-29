@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">558</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">560</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,17 +21,17 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>269</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>188</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>270</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>189</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>176</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>175</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>170</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>171</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>121</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>116</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>109</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>100</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>117</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>111</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>101</b></span>
 <span class="pill">多机器人与具身智能体 <b>96</b></span>
-<span class="pill">领域应用与部署研究 <b>78</b></span>
+<span class="pill">领域应用与部署研究 <b>79</b></span>
 <span class="pill">人机协作与社会智能 <b>70</b></span>
 </div>
 
@@ -318,6 +318,9 @@ tags:
 
 **[Computational Aspects of Plan-Dependent Model Equivalence: The Case of Knowing-How Bisimulations](./knowing-how-plan-dependent-bisimulation.md)**
 : Carlos Areces, Raul Fervari, Antonio Mondejar · research · 论证、知识表示与自动推理 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
+
+**[Computational Social Choice: Research & Development](./computational-social-choice-research-development.md)**
+: Dorothea Baumeister, Ratip Emin Berker, Niclas Boehmer, Sylvain Bouveret, Andreas Darmann, Piotr Faliszewski, Martin Lackner, Jérôme Lang, Nicholas Mattei, Arianna Novaro · blue_sky · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Computing Perfect Bayesian Equilibria, with Application to Empirical Game-Theoretic Analysis](./pbe-cfr-empirical-game-theoretic-analysis.md)**
 : Christine Konicki, Mithun Chakraborty, Michael P. Wellman · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
@@ -804,6 +807,9 @@ tags:
 
 **[InteractFormer: Inter-Agent Spatiotemporal Attention for Multi-Agent Action Anticipation](./interactformer-multi-agent-action-anticipation.md)**
 : Yiqi Jin, Simon Stepputtis, Carl Busart, Katia Sycara, Yaqi Xie · research · 多机器人与具身智能体 · 人机协作与社会智能 · 多智能体强化学习、协调与通信
+
+**[Interactionless Inverse Reinforcement Learning: A Data-Centric Framework for Durable Alignment](./interactionless-irl-durable-alignment.md)**
+: Elias Malomgré, Pieter Simoens · blue_sky · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 规范、信任、声誉与治理
 
 **[Interactive Bayesian Deception under Strategic Timing](./interactive-bayesian-deception-strategic-timing.md)**
 : Amitalok J. Budkuley, Arya Choudhuri · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 规范、信任、声誉与治理

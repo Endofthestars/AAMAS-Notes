@@ -21,7 +21,7 @@ hide:
 
 <div class="hero-stats">
 <div class="stat"><span class="stat-number">2419</span><span class="stat-label">条论文元数据</span></div>
-<div class="stat"><span class="stat-number">558</span><span class="stat-label">篇 reviewed 笔记</span></div>
+<div class="stat"><span class="stat-number">560</span><span class="stat-label">篇 reviewed 笔记</span></div>
 <div class="stat"><span class="stat-number">12</span><span class="stat-label">个已审核主题</span></div>
 </div>
 
@@ -37,19 +37,19 @@ hide:
 
 ### 🤖 [AAMAS 2026](notes/2026/)
 
-<div class="conf-count">642 条元数据 · 558 篇 reviewed</div>
+<div class="conf-count">642 条元数据 · 560 篇 reviewed</div>
 
 <div class="area-groups"><div class="area-group">
 <div class="area-group-label">已审核主题</div>
 <div class="area-tags">
-<a class="area-tag" href="notes/2026/">智能体架构、协议与软件工程 269</a>
-<a class="area-tag" href="notes/2026/">安全、验证、运行时保障与可解释性 188</a>
+<a class="area-tag" href="notes/2026/">智能体架构、协议与软件工程 270</a>
+<a class="area-tag" href="notes/2026/">安全、验证、运行时保障与可解释性 189</a>
 <a class="area-tag" href="notes/2026/">多智能体搜索、规划与调度 176</a>
 <a class="area-tag" href="notes/2026/">多智能体强化学习、协调与通信 175</a>
-<a class="area-tag" href="notes/2026/">博弈论、机制设计与拍卖 170</a>
+<a class="area-tag" href="notes/2026/">博弈论、机制设计与拍卖 171</a>
 <a class="area-tag" href="notes/2026/">论证、知识表示与自动推理 121</a>
-<a class="area-tag" href="notes/2026/">资源分配、匹配与社会选择 116</a>
-<a class="area-tag" href="notes/2026/">规范、信任、声誉与治理 109</a>
+<a class="area-tag" href="notes/2026/">资源分配、匹配与社会选择 117</a>
+<a class="area-tag" href="notes/2026/">规范、信任、声誉与治理 111</a>
 </div>
 </div></div>
 
