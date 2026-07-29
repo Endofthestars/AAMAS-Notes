@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">580</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">582</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,16 +21,16 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>281</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>195</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>183</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>283</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>196</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>184</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>180</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>180</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>179</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>128</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>123</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
-<span class="pill">多机器人与具身智能体 <b>97</b></span>
+<span class="pill">多机器人与具身智能体 <b>99</b></span>
 <span class="pill">领域应用与部署研究 <b>87</b></span>
 <span class="pill">人机协作与社会智能 <b>75</b></span>
 </div>
@@ -886,6 +886,9 @@ tags:
 **[Learning the Value Systems of Societies with Preference-based Multi-objective Reinforcement Learning](./value-systems-societies-pbmorl.md)**
 : Andrés Holgado-Sánchez, Peter Vamplew, Richard Dazeley, Sascha Ossowski, Holger Billhardt · research · 多智能体强化学习、协调与通信 · 人机协作与社会智能 · 规范、信任、声誉与治理
 
+**[Learning to Control Reconfigurable Multiagent Systems](./learning-control-reconfigurable-multiagent-systems.md)**
+: Manuel Agraz Vallejo · doctoral_consortium · 多机器人与具身智能体 · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性
+
 **[Learning to Maintain Safety through Expert Demonstrations in Settings with Unknown Constraints: A Q-learning Perspective](./safeqil-expert-demonstrations-unknown-constraints.md)**
 : George Papadopoulos, George A. Vouros · research · 安全、验证、运行时保障与可解释性 · 多智能体搜索、规划与调度 · 多机器人与具身智能体
 
@@ -1446,6 +1449,9 @@ tags:
 
 **[Scalable and Safe Multi-Agent Coordination with Reconstructed Level-k Monte Carlo Tree Search](./reconstructed-level-k-safe-coordination.md)**
 : Zhihao Lin, Lin Wu, Zhen Tian, Alessio Lomuscio, Jianglin Lan · research · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性 · 多机器人与具身智能体
+
+**[Scalable Coalition Formation for Extremely Large Collectives](./scalable-coalition-formation-extremely-large-collectives.md)**
+: Neha G. Pusalkar · doctoral_consortium · 多机器人与具身智能体 · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 智能体架构、协议与软件工程
 
 **[Scalable Knothe--Rosenblatt-like Heuristic Transportation Plans for Imaging Problems](./kr-like-heuristic-transportation-imaging.md)**
 : Gennaro Auricchio, Min Lin, Lingxuan Zhou, Zhaori Guo, Zhongqi Cai · research · 智能体架构、协议与软件工程 · 资源分配、匹配与社会选择 · 领域应用与部署研究
