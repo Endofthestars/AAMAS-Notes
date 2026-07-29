@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">572</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">574</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,14 +21,14 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>276</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>278</b></span>
 <span class="pill">安全、验证、运行时保障与可解释性 <b>193</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>179</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>179</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>177</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>124</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>180</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>180</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>178</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>125</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>122</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>115</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>116</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>106</b></span>
 <span class="pill">多机器人与具身智能体 <b>97</b></span>
 <span class="pill">领域应用与部署研究 <b>84</b></span>
@@ -1099,6 +1099,9 @@ tags:
 **[Neuro-symbolic Action Masking for Deep Reinforcement Learning](./neuro-symbolic-action-masking-drl.md)**
 : Shuai Han, Mehdi Dastani, Shihan Wang · research · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度
 
+**[Neuro-Symbolic Decision Making for Autonomous Agents](./neuro-symbolic-decision-making-autonomous-agents.md)**
+: Celeste Veronese · doctoral_consortium · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 论证、知识表示与自动推理
+
 **[Neurosymbolic Active Goal Recognition in Partially Observable Environments](./neurosymbolic-active-goal-recognition.md)**
 : Chenyuan Zhang, Sukai Huang, Hamid Rezatofighi, Mor Vered, Buser Say · research · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 多智能体搜索、规划与调度
 
@@ -1332,6 +1335,9 @@ tags:
 
 **[Repeated Deceptive Path Planning against Learnable Observer](./repeated-deceptive-path-planning.md)**
 : Shiyue Cao, Pei Xu, Likun Yang, Lei Cui, Shizhao Yu, Shiyu Zhang, Yongjian Ren, Xiaotang Chen, Kaiqi Huang · research · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性 · 多智能体强化学习、协调与通信
+
+**[Reputation As a New Route to Cooperation in Multi-Agent Reinforcement Learning](./reputation-route-cooperation-marl.md)**
+: Román Chiva Gil · doctoral_consortium · 多智能体强化学习、协调与通信 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理 · 智能体架构、协议与软件工程
 
 **[Reputation as a Solution to Cooperation Collapse in LLM-based MASs](./repunet-cooperation-collapse.md)**
 : Siyue Ren, Wanli Fu, Xinkun Zou, Chen Shen, Yi Cai, Chen Chu, Zhen Wang, Shuyue Hu · research · 生成式与大语言模型智能体 · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理
