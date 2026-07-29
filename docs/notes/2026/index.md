@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">552</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">554</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>265</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>184</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>174</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>174</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>267</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>185</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>175</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>175</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>169</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>119</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>115</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>105</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>106</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>98</b></span>
-<span class="pill">多机器人与具身智能体 <b>95</b></span>
+<span class="pill">多机器人与具身智能体 <b>96</b></span>
 <span class="pill">领域应用与部署研究 <b>78</b></span>
-<span class="pill">人机协作与社会智能 <b>68</b></span>
+<span class="pill">人机协作与社会智能 <b>69</b></span>
 </div>
 
 ## 全部笔记
@@ -345,6 +345,9 @@ tags:
 
 **[Constrained Multi-Agent Reinforcement Learning with MAF-Net for Safe Trajectory Planning](./iddpg-maf-safe-trajectory-planning.md)**
 : Bizhao Pang, Mingcheng Zhang, Xinting Hu, Duc-Thinh Pham, Sameer Alam, Guglielmo Lulli · research · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
+
+**[Contextual Intelligence: The Next Leap for Reinforcement Learning](./contextual-intelligence-reinforcement-learning.md)**
+: André Biedenkapp · blue_sky · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 多机器人与具身智能体 · 多智能体强化学习、协调与通信
 
 **[Contrastive Explanations of BDI Agents](./contrastive-explanations-bdi-agents.md)**
 : Michael Winikoff · research · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
@@ -1608,6 +1611,9 @@ tags:
 
 **[Towards A Unified Policy Abstraction Theory and Representation Learning Approach in Markov Decision Processes](./unified-policy-abstraction-mdps.md)**
 : Min Zhang, Hongyao Tang, Jianye Hao, Yan Zheng · research · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理
+
+**[Towards AI-Sympathy using Agents](./towards-ai-sympathy-agents.md)**
+: Sebastian Rodriguez, Brian Logan, John Thangarajah · blue_sky · 人机协作与社会智能 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理
 
 **[Towards Failure-Resilient Lifelong Learning Agents through Scene Graph-Guided Proactive Replanning](./scene-graph-proactive-replanning-lifelong-agents.md)**
 : Che Rin Yu, Daewon Chae, Dabin Seo, Sangwon Lee, Hyeongwoo IM, Jinkyu Kim · research · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 多机器人与具身智能体
