@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">554</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">556</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>267</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>185</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>268</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>187</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>175</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>175</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>169</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>119</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>120</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>115</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>106</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>98</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>108</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>99</b></span>
 <span class="pill">多机器人与具身智能体 <b>96</b></span>
 <span class="pill">领域应用与部署研究 <b>78</b></span>
-<span class="pill">人机协作与社会智能 <b>69</b></span>
+<span class="pill">人机协作与社会智能 <b>70</b></span>
 </div>
 
 ## 全部笔记
@@ -288,6 +288,9 @@ tags:
 
 **[Clone-Robust Weights in Metric Spaces: Handling Redundancy Bias in Benchmark Aggregation](./clone-robust-weights-metric-spaces.md)**
 : Damien Berriaud, Roger Wattenhofer · research · 论证、知识表示与自动推理 · 资源分配、匹配与社会选择 · 安全、验证、运行时保障与可解释性
+
+**[Coadaptive Value Alignment](./coadaptive-value-alignment.md)**
+: Nathan Tsoi, Eric Hsiung, Masayuki Yamazaki, Swarat Chaudhuri, Peter Stone, Joydeep Biswas · blue_sky · 人机协作与社会智能 · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
 
 **[Coalition Tactics: Bribery and Control in Parliamentary Elections](./coalition-tactics-parliamentary-elections.md)**
 : Hodaya Barr, Eden Hartman, Yonatan Aumann, Sarit Kraus · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 规范、信任、声誉与治理
@@ -1074,6 +1077,9 @@ tags:
 
 **[Neurosymbolic Active Goal Recognition in Partially Observable Environments](./neurosymbolic-active-goal-recognition.md)**
 : Chenyuan Zhang, Sukai Huang, Hamid Rezatofighi, Mor Vered, Buser Say · research · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 多智能体搜索、规划与调度
+
+**[No Future for LLM-based Agents without Formal Dialogue Verification](./formal-dialogue-verification-llm-agents.md)**
+: Juan Carlos Nieves, Andreas Brännström, Esteban Guerrero · blue_sky · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 生成式与大语言模型智能体 · 规范、信任、声誉与治理
 
 **[Node-Level Federated Learning with Adaptive Personalized Aggregation for Spatio-Temporal Traffic Prediction](./node-level-federated-traffic-prediction.md)**
 : Xiaoying Tu, Ying Lin, Xingjian Lu, Yibing Wang, Bo Hu · research · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 多智能体搜索、规划与调度
