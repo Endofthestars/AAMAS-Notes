@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">556</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">558</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,15 +21,15 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>268</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>187</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>269</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>188</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>176</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>175</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>175</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>169</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>120</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>115</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>108</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>99</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>170</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>121</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>116</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>109</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>100</b></span>
 <span class="pill">多机器人与具身智能体 <b>96</b></span>
 <span class="pill">领域应用与部署研究 <b>78</b></span>
 <span class="pill">人机协作与社会智能 <b>70</b></span>
@@ -636,6 +636,12 @@ tags:
 
 **[Formalizing Mental Privacy in LogiKEy](./formalizing-mental-privacy-logikey.md)**
 : Luca Pasetto, Christoph Benzmüller, Réka Markovich · research · 规范、信任、声誉与治理 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性
+
+**[Foundation World Models for Agents that Learn, Verify, and Adapt Reliably Beyond Static Environments](./foundation-world-models-reliable-agents.md)**
+: Florent Delgrange · blue_sky · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 多智能体搜索、规划与调度 · 生成式与大语言模型智能体
+
+**[Frankenmandering: The Confluence and Symbiosis of Opinion Dynamics and Gerrymandering](./frankenmandering-opinion-dynamics-gerrymandering.md)**
+: Sahil Agarwal, Svetlana Obraztsova, Zinovi Rabinovich, Alan Tsang · blue_sky · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理 · 论证、知识表示与自动推理 · 资源分配、匹配与社会选择
 
 **[From Actions to Words: Towards Abstractive-Textual Policy Summarization in RL](./actions-to-words-sysllm.md)**
 : Sahar Admoni, Assaf Hallak, Yftah Ziser, Omer Ben-Porat, Ofra Amir · research · 智能体架构、协议与软件工程 · 人机协作与社会智能
