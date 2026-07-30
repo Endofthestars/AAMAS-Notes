@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">628</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">630</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>322</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>236</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>324</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>238</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>201</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>197</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>140</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>129</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>198</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>187</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>141</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>130</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>123</b></span>
-<span class="pill">领域应用与部署研究 <b>122</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>124</b></span>
+<span class="pill">领域应用与部署研究 <b>124</b></span>
 <span class="pill">多机器人与具身智能体 <b>109</b></span>
-<span class="pill">人机协作与社会智能 <b>99</b></span>
+<span class="pill">人机协作与社会智能 <b>100</b></span>
 </div>
 
 ## 全部笔记
@@ -1390,6 +1390,9 @@ tags:
 **[PSN Game: Game-theoretic Prediction and Planning via a Player Selection Network](./psn-game-player-selection.md)**
 : Tianyu Qiu, Eric Ouano, Fernando Palafox, Christian Ellis, David Fridovich-Keil · research · 博弈论、机制设计与拍卖 · 多智能体搜索、规划与调度 · 多智能体强化学习、协调与通信
 
+**[PSTV: Towards Practical Verification of Strategic Ability for Probabilistic Models with Imperfect Information](./pstv-probabilistic-strategic-verification.md)**
+: Mateusz Kamiński, Wojciech Jamroga, Damian Kurpiewski · demo · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理 · 领域应用与部署研究 · 智能体架构、协议与软件工程
+
 **[Puzzle it Out: Local-to-Global World Model for Offline Multi-Agent Reinforcement Learning](./logo-local-to-global-offline-marl.md)**
 : Sijia Li, Xinran Li, Shibo Chen, Jun Zhang · research · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度
 
@@ -1821,6 +1824,9 @@ tags:
 
 **[Towards AI-Sympathy using Agents](./towards-ai-sympathy-agents.md)**
 : Sebastian Rodriguez, Brian Logan, John Thangarajah · blue_sky · 人机协作与社会智能 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理
+
+**[Towards Automated Integration of Novel ML Tools Into LLM-Driven AutoML Agents](./autods-tools-external-ml-tools-llm-automl.md)**
+: Alexey Lapin, Stanislav Chumakov, Pavel Marian, Daniel Ezhov, Andrey Nosov, Igor Hromov, Mile Mitrovic, Dmitry Simakov, Andrey V. Savchenko, Nikolay O. Nikitin · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Towards Detecting, Mitigating and Explaining Biased and Fallacious Reasoning in Large Language Models](./biased-fallacious-reasoning-llms.md)**
 : Ana Gutiérrez-Mandingorra · doctoral_consortium · 生成式与大语言模型智能体 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理
