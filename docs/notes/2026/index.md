@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">598</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">600</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>295</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>208</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>191</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>297</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>209</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>192</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>185</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>183</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>184</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>133</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>126</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>109</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>110</b></span>
 <span class="pill">多机器人与具身智能体 <b>103</b></span>
-<span class="pill">领域应用与部署研究 <b>95</b></span>
-<span class="pill">人机协作与社会智能 <b>80</b></span>
+<span class="pill">领域应用与部署研究 <b>96</b></span>
+<span class="pill">人机协作与社会智能 <b>82</b></span>
 </div>
 
 ## 全部笔记
@@ -385,6 +385,9 @@ tags:
 **[Control in Hedonic Games](./control-in-hedonic-games.md)**
 : Jiehua Chen, Jakob Guttmann, Merisa Mustajbašić, Sofia Simola · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理
 
+**[ConvPayMAS: Conversational Payment Multi-Agent System with Agent-to-Agent Protocol and Three-Mandate Verification](./convpaymas-conversational-agentic-payment.md)**
+: Joon Kiat Chua, Chen Hao Tse, Donghao Huang, Zhaoxia Wang · demo · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 安全、验证、运行时保障与可解释性 · 人机协作与社会智能 · 领域应用与部署研究
+
 **[Cooperative Multi-Agent Alignment via Boolean Task Algebras and Team Morality Chains](./cooperative-alignment-boolean-task-team-morality.md)**
 : Simon Rosen · doctoral_consortium · 多智能体强化学习、协调与通信 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 规范、信任、声誉与治理
 
@@ -693,6 +696,9 @@ tags:
 
 **[From Knowledge to Causality: Self-Supervised Representation Learning for Granger Causal Discovery in Groups of Time Series](./group-time-series-granger-causality.md)**
 : Bo Liu, Hongyan Li, Shenda Hong · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 领域应用与部署研究
+
+**[From Thought to Action: An Interactive Platform for Inspecting Strategic Reasoning in LLMs](./reason2act-strategic-reasoning-llm-repeated-games.md)**
+: Dung-Lin Tsai, Min-Chen Hsieh, Yi-Hua Shih, Yun-Gung Chung, Min-Huan Tsai, Hsun-Ping Hsieh · demo · 博弈论、机制设计与拍卖 · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 人机协作与社会智能
 
 **[From User Preferences to Base Score Extraction Functions in Gradual Argumentation](./user-preferences-base-score-gradual-argumentation.md)**
 : Aniol Civit, Antonio Rago, Antonio Andriella, Guillem Alenyà, Francesca Toni · research · 论证、知识表示与自动推理 · 人机协作与社会智能 · 多机器人与具身智能体
