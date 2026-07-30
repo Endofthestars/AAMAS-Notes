@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">600</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">602</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,16 +21,16 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>297</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>209</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>192</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>185</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>299</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>210</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>193</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>187</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>184</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>133</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>126</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>110</b></span>
-<span class="pill">多机器人与具身智能体 <b>103</b></span>
+<span class="pill">多机器人与具身智能体 <b>104</b></span>
 <span class="pill">领域应用与部署研究 <b>96</b></span>
 <span class="pill">人机协作与社会智能 <b>82</b></span>
 </div>
@@ -655,6 +655,9 @@ tags:
 **[Federated Gaussian Process Learning via Pseudo-Representations for Large-Scale Multi-Robot Systems](./federated-gp-pseudo-representations.md)**
 : Sanket A. Salunkhe, George P. Kontoudis · research · 多机器人与具身智能体 · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程
 
+**[FEDOT.MAS: Generating Multi-Agent Systems for Complex Tasks with Multi-Stage Validation](./fedot-mas-multi-stage-workflow-generation.md)**
+: Dmitry Gilemkhanov, Vadim A. Potemkin, Maria Zaitseva, Ilia Revin, Anna Kalyuzhnaya, Nikolay Nikitin · demo · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 多智能体搜索、规划与调度
+
 **[Finding the Weakest Link: Adversarial Attack against Multi-Agent Communications](./adversarial-attack-multi-agent-communications.md)**
 : Maxwell Standen, Junae Kim, Claudia Szabo · research · 安全、验证、运行时保障与可解释性 · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程
 
@@ -993,6 +996,9 @@ tags:
 
 **[MARLIN: Multi-Agent Reinforcement Learning with Murmuration Intelligence and LLM Guidance for Reservoir Management](./marlin-reservoir-management.md)**
 : Heming Fu, Shan Lin, Guojun Xiong · research · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 资源分配、匹配与社会选择 · 安全、验证、运行时保障与可解释性
+
+**[MASPY: A Python Framework for Developing BDI Agents with Reinforcement Learning](./maspy-bdi-agents-reinforcement-learning.md)**
+: Alexandre L. L. Mellado, Gabriel G. Neres, André P. Borges, Rafael C. Cardoso, Gleifer V. Alves · demo · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 多智能体强化学习、协调与通信 · 多机器人与具身智能体
 
 **[MAStitch: Unifying Local and Global Perspectives for Anomaly Detection in Multi-Agent Systems](./mastitch-local-global-mas-anomaly-detection.md)**
 : Lior Waknin, Yarin Yerushalmi Levi, Ron Solomon, Jaidip Kotak, Amit Giloni, Chiara Picardi, Roman Vainshtein, Yuval Elovici, Asaf Shabtai · research · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 规范、信任、声誉与治理
