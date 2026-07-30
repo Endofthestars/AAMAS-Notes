@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">614</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">616</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>309</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>222</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>310</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>224</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>197</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>190</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>185</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>191</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>135</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>128</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>123</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>116</b></span>
-<span class="pill">领域应用与部署研究 <b>108</b></span>
-<span class="pill">多机器人与具身智能体 <b>105</b></span>
-<span class="pill">人机协作与社会智能 <b>89</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>124</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>117</b></span>
+<span class="pill">领域应用与部署研究 <b>110</b></span>
+<span class="pill">多机器人与具身智能体 <b>106</b></span>
+<span class="pill">人机协作与社会智能 <b>91</b></span>
 </div>
 
 ## 全部笔记
@@ -796,6 +796,9 @@ tags:
 **[Guiding Sociotechnical Systems toward Value-Norm Equilibrium](./value-norm-equilibrium-sociotechnical-systems.md)**
 : Nirav Ajmeri, Marina De Vos, Davide Dell’Anna, Pradeep K. Murukannaiah, Vivek Nallur, Luis G. Nardin, Munindar P. Singh · blue_sky · 规范、信任、声誉与治理 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性
 
+**[HAMMR: A Human-Aligned Multi-Agent Framework for Language-Guided Robotic Manipulation](./hammr-human-aligned-language-guided-robot-manipulation.md)**
+: Roopesh Kumar Shanmugasundaram, Niko Mäkitalo · demo · 多机器人与具身智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 生成式与大语言模型智能体 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
+
 **[Health Facility Location in Ethiopia: Leveraging LLMs to Integrate Expert Knowledge into Algorithmic Planning](./health-facility-location-ethiopia-leg.md)**
 : Yohai Trabelsi, Guojun Xiong, Fentabil Getnet, Stéphane Verguet, Milind Tambe · research · 领域应用与部署研究 · 多智能体搜索、规划与调度 · 人机协作与社会智能
 
@@ -1254,6 +1257,9 @@ tags:
 
 **[Optimizing Urban Route Choice for Autonomous Vehicles using Multi-Agent Reinforcement Learning](./av-urban-route-choice-marl.md)**
 : Anastasia Psarou · doctoral_consortium · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 领域应用与部署研究
+
+**[Optimizing Voting Rules for Social Welfare and Beyond](./optimal-voting-positional-scoring-rules.md)**
+: Ben Armstrong, Hrishi Kabra, Nicholas Mattei · demo · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性 · 人机协作与社会智能 · 领域应用与部署研究
 
 **[OSIL: Learning Offline Safe Imitation Policies with Safety Inferred from Non-preferred Trajectories](./offline-safe-imitation-policies.md)**
 : Returaj Burnwal, Nirav Pravinbhai Bhatt, Balaraman Ravindran · research · 安全、验证、运行时保障与可解释性 · 多智能体强化学习、协调与通信 · 多机器人与具身智能体
