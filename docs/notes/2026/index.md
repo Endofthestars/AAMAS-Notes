@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">622</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">624</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>316</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>230</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>199</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>193</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>318</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>232</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>201</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>194</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>138</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>127</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>120</b></span>
-<span class="pill">领域应用与部署研究 <b>116</b></span>
-<span class="pill">多机器人与具身智能体 <b>107</b></span>
-<span class="pill">人机协作与社会智能 <b>94</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>128</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>121</b></span>
+<span class="pill">领域应用与部署研究 <b>118</b></span>
+<span class="pill">多机器人与具身智能体 <b>108</b></span>
+<span class="pill">人机协作与社会智能 <b>95</b></span>
 </div>
 
 ## 全部笔记
@@ -418,6 +418,9 @@ tags:
 **[CQGen-MAS: A Multi-Agent System for Competency Questions Generation from Ontology](./cqgen-mas-ontology-competency-questions.md)**
 : Fei Du, Huilong An, Feng Li, Li Chen, Weidong Liu · research · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 论证、知识表示与自动推理
 
+**[CraftUtopia: A LLM-based Multi-Agent System for Collaborative Construction in Minecraft](./craftutopia-minecraft-collaborative-construction.md)**
+: Wanli Fu, Hao Li, Siyue Ren, Chenxi Xing, Yang Chen, Chen Chu, Zhen Wang, Shuyue Hu · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
+
 **[CRAwDAD: Causal Reasoning Augmentation with Dual-Agent Debate](./crawdad-causal-reasoning-dual-agent-debate.md)**
 : Finn G. Vamosi, Nils D. Forkert · research · 生成式与大语言模型智能体 · 论证、知识表示与自动推理 · 多智能体强化学习、协调与通信
 
@@ -723,6 +726,9 @@ tags:
 
 **[From Knowledge to Causality: Self-Supervised Representation Learning for Granger Causal Discovery in Groups of Time Series](./group-time-series-granger-causality.md)**
 : Bo Liu, Hongyan Li, Shenda Hong · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 领域应用与部署研究
+
+**[From Real-World Images to Agent-Based Crowd Simulations: An End-to-End Pipeline](./real-image-agent-crowd-simulation-pipeline.md)**
+: Helena G. Theodoropoulou, Vasilis Zafeiropoulos, Zoi Lygizou, Michail Zervas, Dimitris Kalles, Chairi Kiourt · demo · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[From Thought to Action: An Interactive Platform for Inspecting Strategic Reasoning in LLMs](./reason2act-strategic-reasoning-llm-repeated-games.md)**
 : Dung-Lin Tsai, Min-Chen Hsieh, Yi-Hua Shih, Yun-Gung Chung, Min-Huan Tsai, Hsun-Ping Hsieh · demo · 博弈论、机制设计与拍卖 · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 人机协作与社会智能
