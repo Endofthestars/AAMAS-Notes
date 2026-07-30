@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">596</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">598</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,8 +21,8 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>293</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>206</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>295</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>208</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>191</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>185</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>183</b></span>
@@ -30,9 +30,9 @@ tags:
 <span class="pill">资源分配、匹配与社会选择 <b>126</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
-<span class="pill">多机器人与具身智能体 <b>102</b></span>
-<span class="pill">领域应用与部署研究 <b>93</b></span>
-<span class="pill">人机协作与社会智能 <b>79</b></span>
+<span class="pill">多机器人与具身智能体 <b>103</b></span>
+<span class="pill">领域应用与部署研究 <b>95</b></span>
+<span class="pill">人机协作与社会智能 <b>80</b></span>
 </div>
 
 ## 全部笔记
@@ -1717,6 +1717,9 @@ tags:
 **[Too Many Specialists: Emergent Inefficiencies and Bottlenecks for Multi-agent Ad-hoc Collaboration](./specialists-bottlenecks-adhoc-collaboration.md)**
 : Benjamin Panny, Shashank Mehrotra, Zahra Zahedi, Teruhisa Misu, Kumar Akash · research · 多智能体强化学习、协调与通信 · 人机协作与社会智能 · 智能体架构、协议与软件工程
 
+**[ToolBrain: A Flexible Reinforcement Learning Framework for Agentic Tools](./toolbrain-coach-athlete-agent-tool-rl.md)**
+: Quy Minh Le, Minh Sao Khue Luu, Khanh-Tung Tran, Duc-Hai Nguyen, Hoang Quoc Viet Pham, Quan Le, Hoang Thanh Lam, Hoang D. Nguyen · demo · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
+
 **[Toward High-Fidelity Multi-Agent Recommendation: An Agentic Design Framework Integrating RecoWorld and LLMs](./agentic-recommendation-recoworld-llm.md)**
 : Ionut-Dragos Neremzoiu · doctoral_consortium · 生成式与大语言模型智能体 · 领域应用与部署研究 · 多智能体强化学习、协调与通信 · 人机协作与社会智能
 
@@ -1815,6 +1818,9 @@ tags:
 
 **[xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing](./xted-cross-domain-trajectory-editing.md)**
 : Haoyi Niu, Qimao Chen, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan · research · 多机器人与具身智能体 · 多智能体强化学习、协调与通信 · 领域应用与部署研究
+
+**[Yanapay: A Simulation Toolkit for Autonomous Agents Reasoning about Human Behaviour in Emergency Evacuations](./yanapay-socially-aware-sar-evacuation-simulation.md)**
+: Alexandros Kangkelidis, Carlos Gavidia-Calderon, Bashar Nuseibeh, Ayodeji Abioye, Amel Bennaceur · demo · 人机协作与社会智能 · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 领域应用与部署研究
 
 **[You Can Go First — Planning for Social Law Synthesis in Asymmetric Multi-agent Settings](./social-law-synthesis-asymmetric-agents.md)**
 : Sarath Sreedharan, Philip Hopkins, Felipe Meneguzzi · research · 规范、信任、声誉与治理 · 多智能体搜索、规划与调度 · 人机协作与社会智能

@@ -21,7 +21,7 @@ hide:
 
 <div class="hero-stats">
 <div class="stat"><span class="stat-number">2419</span><span class="stat-label">条论文元数据</span></div>
-<div class="stat"><span class="stat-number">596</span><span class="stat-label">篇 reviewed 笔记</span></div>
+<div class="stat"><span class="stat-number">598</span><span class="stat-label">篇 reviewed 笔记</span></div>
 <div class="stat"><span class="stat-number">12</span><span class="stat-label">个已审核主题</span></div>
 </div>
 
@@ -37,13 +37,13 @@ hide:
 
 ### 🤖 [AAMAS 2026](notes/2026/)
 
-<div class="conf-count">642 条元数据 · 596 篇 reviewed</div>
+<div class="conf-count">642 条元数据 · 598 篇 reviewed</div>
 
 <div class="area-groups"><div class="area-group">
 <div class="area-group-label">已审核主题</div>
 <div class="area-tags">
-<a class="area-tag" href="notes/2026/">智能体架构、协议与软件工程 293</a>
-<a class="area-tag" href="notes/2026/">安全、验证、运行时保障与可解释性 206</a>
+<a class="area-tag" href="notes/2026/">智能体架构、协议与软件工程 295</a>
+<a class="area-tag" href="notes/2026/">安全、验证、运行时保障与可解释性 208</a>
 <a class="area-tag" href="notes/2026/">多智能体强化学习、协调与通信 191</a>
 <a class="area-tag" href="notes/2026/">多智能体搜索、规划与调度 185</a>
 <a class="area-tag" href="notes/2026/">博弈论、机制设计与拍卖 183</a>
