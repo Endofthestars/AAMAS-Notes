@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">640</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">641</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>334</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>335</b></span>
 <span class="pill">安全、验证、运行时保障与可解释性 <b>247</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>206</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>205</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>189</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>190</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>145</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>137</b></span>
-<span class="pill">领域应用与部署研究 <b>134</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>130</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>138</b></span>
+<span class="pill">领域应用与部署研究 <b>135</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>131</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>127</b></span>
 <span class="pill">多机器人与具身智能体 <b>114</b></span>
-<span class="pill">人机协作与社会智能 <b>106</b></span>
+<span class="pill">人机协作与社会智能 <b>107</b></span>
 </div>
 
 ## 全部笔记
@@ -519,6 +519,9 @@ tags:
 
 **[Disobedience in Normative Multi-agent Systems](./disobedience-normative-mas.md)**
 : Marija Slavkovik, Liuwen Yu, Leon van der Torre, Réka Markovich, Beishui Liao · research · 规范、信任、声誉与治理 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性
+
+**[Distributed Course Allocation with Asymmetric Friendships](./distributed-course-allocation-asymmetric-friendships.md)**
+: Lihi Dery, Tal Grinshpoun, Ilya Khakhiashvili · jaamas · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Distributed Quantum Gaussian Processes for Multi-Agent Systems](./distributed-quantum-gaussian-processes-mas.md)**
 : Meet Gandhi, George P. Kontoudis · research · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 领域应用与部署研究
