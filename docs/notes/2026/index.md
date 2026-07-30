@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">590</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">592</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -22,17 +22,17 @@ tags:
 
 <div class="conf-pills">
 <span class="pill">智能体架构、协议与软件工程 <b>290</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>201</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>188</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>203</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>189</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>184</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>180</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>130</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>181</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>131</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>125</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>118</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
-<span class="pill">多机器人与具身智能体 <b>101</b></span>
-<span class="pill">领域应用与部署研究 <b>90</b></span>
-<span class="pill">人机协作与社会智能 <b>77</b></span>
+<span class="pill">多机器人与具身智能体 <b>102</b></span>
+<span class="pill">领域应用与部署研究 <b>91</b></span>
+<span class="pill">人机协作与社会智能 <b>78</b></span>
 </div>
 
 ## 全部笔记
@@ -889,6 +889,9 @@ tags:
 **[Learning Hierarchical Procedural Memory for LLM Agents through Bayesian Selection and Contrastive Refinement](./macla-hierarchical-procedural-memory-llm-agents.md)**
 : Saman Forouzandeh, Wei Peng, Parham Moradi, Xinghuo Yu, Mahdi Jalili · research · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度
 
+**[Learning Preferences and Resolving Conflicts in Multi-User Personalisation in Human-Robot Interaction](./multi-user-hri-preference-conflict-argumentation.md)**
+: Aniol Civit · doctoral_consortium · 人机协作与社会智能 · 论证、知识表示与自动推理 · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性
+
 **[Learning Rewards, Not Labels: Adversarial Inverse Reinforcement Learning for Machinery Fault Detection](./adversarial-irl-machinery-fault-detection.md)**
 : Dhiraj Neupane, Richard Dazeley, Mohamed Reda Bouadjenek, Sunil Aryal · research · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
 
@@ -1074,6 +1077,9 @@ tags:
 
 **[Multi-Agent Model-Based Reinforcement Learning with Joint State-Action Learned Embeddings](./mmsa-joint-state-action-embeddings.md)**
 : Zhizun Wang, David Meger · research · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程
+
+**[Multi-Agent Modeling of Food and Water Security Crises: From Historical Causation to Robust Policy Design](./food-water-security-crises-multi-agent-policy.md)**
+: Daria Taniushkina · doctoral_consortium · 领域应用与部署研究 · 多智能体强化学习、协调与通信 · 博弈论、机制设计与拍卖 · 安全、验证、运行时保障与可解释性
 
 **[Multi-Agent Pickup and Delivery with Heterogeneous Agents](./heterogeneous-mapd-handover-planning.md)**
 : Benedetta Flammini, Francesco Amigoni, Bruno Lacerda · research · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 多智能体强化学习、协调与通信
