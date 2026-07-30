@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">620</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">622</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>314</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>228</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>198</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>192</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>316</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>230</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>199</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>193</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>137</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>138</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>126</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>119</b></span>
-<span class="pill">领域应用与部署研究 <b>114</b></span>
-<span class="pill">多机器人与具身智能体 <b>106</b></span>
-<span class="pill">人机协作与社会智能 <b>93</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>127</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>120</b></span>
+<span class="pill">领域应用与部署研究 <b>116</b></span>
+<span class="pill">多机器人与具身智能体 <b>107</b></span>
+<span class="pill">人机协作与社会智能 <b>94</b></span>
 </div>
 
 ## 全部笔记
@@ -997,6 +997,9 @@ tags:
 **[LLMEvalRec: An Agentic Framework for Simulating Users to Evaluate News Recommendation Systems](./llmevalrec-news-recommendation.md)**
 : Yao Ma, Abhishek Tripathi, Samuel Louvan, Wei Liu, Murat Sensoy · research · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 领域应用与部署研究
 
+**[Logical Robots: Declarative Multi-Agent Programming in Logica](./logical-robots-logica-declarative-multiagent.md)**
+: Evgeny Skvortsov, Yilin Xia, Ojaswa Garg, Shawn Bowers, Bertram Ludäscher · demo · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 多机器人与具身智能体 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
+
 **[Low Complexity Online Contextual Learning with Continuous Actions](./congrad-online-contextual-continuous-actions.md)**
 : Mohsen Najjar, Tavor Baharav, Ilai Bistritz · research · 多智能体搜索、规划与调度 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
 
@@ -1056,6 +1059,9 @@ tags:
 
 **[MeCo: Enhancing LLM-Empowered Multi-Robot Collaboration via Similar Task Memoization](./meco-similar-task-memoization.md)**
 : Baiqing Wang, Helei Cui, Bo Zhang, Xiaolong Zheng, Bin Guo, Zhiwen Yu · research · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 多机器人与具身智能体
+
+**[MedCoScientist: A Multi-Agent LLM Framework for Clinical Decision Support](./medcoscientist-multi-agent-clinical-decision-support.md)**
+: Gleb Vitalevich Solovev, Ivan Gurev, Tatyana Polevaya, Zubanenko Aleksei, Nikolay Nikitin · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Memory Retention Is Not Enough to Master Memory Tasks in Reinforcement Learning](./memory-rewriting-rl-benchmark.md)**
 : Oleg Shchendrigin, Egor Cherepanov, Alexey K. Kovalev, Aleksandr I. Panov · research · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性
