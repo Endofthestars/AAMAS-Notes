@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">636</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">638</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>330</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>243</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>204</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>203</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>332</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>245</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>206</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>204</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>189</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>143</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>134</b></span>
-<span class="pill">领域应用与部署研究 <b>130</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>136</b></span>
+<span class="pill">领域应用与部署研究 <b>132</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>130</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>127</b></span>
-<span class="pill">多机器人与具身智能体 <b>112</b></span>
-<span class="pill">人机协作与社会智能 <b>103</b></span>
+<span class="pill">多机器人与具身智能体 <b>114</b></span>
+<span class="pill">人机协作与社会智能 <b>105</b></span>
 </div>
 
 ## 全部笔记
@@ -129,6 +129,9 @@ tags:
 
 **[AI Alignment Via Power Mean Elicitation](./alignment-power-mean-elicitation.md)**
 : Chloé Becquey, Cyrus Cousins, Yuhui Wei, Chang Zeng, Yair Zick · research · 规范、信任、声誉与治理 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性
+
+**[AIDERS: An Integrated Multi-UAV Platform for Disaster Management](./aiders-multi-uav-disaster-management.md)**
+: Xenios Theodorou, Rajitha Ayeshmantha Manellanga, Michalis Demetriou, Panayiotis Kolios · demo · 智能体架构、协议与软件工程 · 多机器人与具身智能体 · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Algorithmic Collusion at Test Time: A Meta-game Design and Evaluation](./algorithmic-collusion-test-time-metagame.md)**
 : Yuhong Luo, Daniel Schoepflin, Xintong Wang · research · 博弈论、机制设计与拍卖 · 多智能体强化学习、协调与通信 · 安全、验证、运行时保障与可解释性
@@ -1398,6 +1401,9 @@ tags:
 
 **[ProSh: Probabilistic Shielding for Model-free Reinforcement Learning](./prosh-probabilistic-shielding-model-free-rl.md)**
 : Edwin Hamel-de le Court, Gaspard Ohlmann, Francesco Belardinelli · research · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信
+
+**[PROTECDOME: PROTECtion DOME for Public Spaces against Rogue Drones](./protecdome-public-spaces-rogue-drones.md)**
+: Nicolas Souli, Giorgos Pettemeridis, Panayiotis Kolios, Georgios Ellinas · demo · 安全、验证、运行时保障与可解释性 · 多机器人与具身智能体 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 人机协作与社会智能 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[PSN Game: Game-theoretic Prediction and Planning via a Player Selection Network](./psn-game-player-selection.md)**
 : Tianyu Qiu, Eric Ouano, Fernando Palafox, Christian Ellis, David Fridovich-Keil · research · 博弈论、机制设计与拍卖 · 多智能体搜索、规划与调度 · 多智能体强化学习、协调与通信
