@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">612</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">614</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>307</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>220</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>309</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>222</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>197</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>190</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>185</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>134</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>135</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>128</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>121</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>115</b></span>
-<span class="pill">领域应用与部署研究 <b>106</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>123</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>116</b></span>
+<span class="pill">领域应用与部署研究 <b>108</b></span>
 <span class="pill">多机器人与具身智能体 <b>105</b></span>
-<span class="pill">人机协作与社会智能 <b>87</b></span>
+<span class="pill">人机协作与社会智能 <b>89</b></span>
 </div>
 
 ## 全部笔记
@@ -1573,6 +1573,9 @@ tags:
 **[Situational-Constrained Multi-Agent Coordination through Correlated Equilibria](./situational-constrained-correlated-equilibria.md)**
 : Libo Zhang, Zhirui Zeng, Yang Chen, Jiamou Liu · research · 多智能体强化学习、协调与通信 · 博弈论、机制设计与拍卖 · 安全、验证、运行时保障与可解释性
 
+**[SLEECinFRET: A Tool to Manage Social, Legal, Ethical, Empathetic, and Cultural Requirements](./sleecinfret-requirements-lifecycle-analysis.md)**
+: Mahrokh Mirani, Franco Raimondi, Nicolas Troquard · demo · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 领域应用与部署研究
+
 **[Smooth Routing in Decaying Trees](./smooth-routing-decaying-trees.md)**
 : Till Fluschnik, Amela Pucic, Malte Renken · research · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 智能体架构、协议与软件工程
 
@@ -1584,6 +1587,9 @@ tags:
 
 **[SocraticAgent: An Autonomous Agent for Unlocking Latent Knowledge in LLMs](./socraticagent-unlocking-latent-knowledge-llms.md)**
 : Yang Yan, Yu Lu, Renjun Xu, Zhenzhong Lan · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 生成式与大语言模型智能体
+
+**[SofIA: AI Clinical Companion for Real-Time Documentation and Decision Support](./sofia-clinical-companion-documentation-decision-support.md)**
+: Leire Villarroya-Martínez, Enrique Alcázar Garzás, Stella Heras, Javier Palanca, Vicent Botti · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Solving Qualitative Multi-Objective Stochastic Games](./qualitative-multi-objective-stochastic-games.md)**
 : Moritz Graf, Anthony Lin, Rupak Majumdar · research · 博弈论、机制设计与拍卖 · 安全、验证、运行时保障与可解释性 · 多智能体搜索、规划与调度
