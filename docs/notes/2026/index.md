@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">616</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">618</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>310</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>224</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>197</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>312</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>226</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>198</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>191</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>135</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>136</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>124</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>117</b></span>
-<span class="pill">领域应用与部署研究 <b>110</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>125</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>118</b></span>
+<span class="pill">领域应用与部署研究 <b>112</b></span>
 <span class="pill">多机器人与具身智能体 <b>106</b></span>
-<span class="pill">人机协作与社会智能 <b>91</b></span>
+<span class="pill">人机协作与社会智能 <b>92</b></span>
 </div>
 
 ## 全部笔记
@@ -1396,6 +1396,9 @@ tags:
 **[RBC: Retroactive Belief State Compensation for Multi-Agent Collaboration Under Information Delay](./rbc-information-delay-multiagent-collaboration.md)**
 : Dongkun Huo, Hongbo Liu, Shu Yin, Yixue Hao, Long Hu, Rui Wang, Min Chen · research · 多智能体强化学习、协调与通信 · 生成式与大语言模型智能体 · 安全、验证、运行时保障与可解释性
 
+**[Reactics: Model Checker for Distributed Reaction Systems](./reactics-distributed-reaction-systems-model-checker.md)**
+: Marcin Piątkowski, Artur Męski, Łukasz Mikulski, Wojciech Penczek · demo · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 领域应用与部署研究
+
 **[ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning](./reactree-llm-agent-planning.md)**
 : Jae-Woo Choi, Hyungmin Kim, Hyobin Ong, Youngwoo Yoon, Minsu Jang, Dohyung Kim, Jaehong Kim · research · 生成式与大语言模型智能体 · 多智能体搜索、规划与调度
 
@@ -1569,6 +1572,9 @@ tags:
 
 **[Sim2Sea: Sim-to-Real Policy Transfer for Maritime Vessel Navigation in Congested Waters](./sim2sea-maritime-sim-to-real.md)**
 : Xinyu Cui, Xuanfa Jin, Xue Yan, Yongcheng Zeng, Luoyang Sun, Siying Wei, Ruizhi Zhang, Jian Zhao, Haifeng Zhang, Jun Wang · research · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
+
+**[SimRetail: A Persona-Informed Multi-Agent System for Autonomous Retail Assortment Planning](./simretail-persona-informed-assortment-planning.md)**
+: Sowmya Podila, Andrew Yang, Bo Shen, Matthew Nokleby · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 规范、信任、声誉与治理 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Single-Deviation Stability in Additively Separable Hedonic Games with Constrained Coalition Sizes](./single-deviation-stability-constrained-hedonic-games.md)**
 : Martin Bullinger, Adam Dunajski, Edith Elkind, Matan Gilboa · research · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理
