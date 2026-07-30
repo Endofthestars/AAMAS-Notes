@@ -5,18 +5,19 @@ on:
     branches: [main]
     paths:
       - "data/**"
-      - "docs/*.md"
-      - "docs/notes/**"
-      - "docs/stylesheets/**"
-      - "docs/javascripts/**"
-      - "docs/assets/**"
+      - "docs/**"
       - "overrides/**"
       - "hooks/**"
       - "mkdocs.yml"
       - "scripts/generate_site_indexes.py"
+      - "scripts/sync_paper_notes_docs.sh"
+      - "data/provenance/PAPER_NOTES_UPSTREAM.md"
+      - "data/provenance/PAPER_NOTES_UPSTREAM_DIRS.txt"
+      - "third_party/Paper-Notes/LICENSE"
       - "LICENSE"
       - "THIRD_PARTY_NOTICES.md"
       - ".github/workflows/deploy-pages.yml"
+      - ".github/workflows/sync-paper-notes-docs.yml"
   workflow_dispatch:
 
 permissions:

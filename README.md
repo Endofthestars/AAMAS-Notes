@@ -100,6 +100,31 @@ gh pr create \
   --title "chore(data): sync AAMAS metadata (2026)"
 ```
 
+## 同步 Paper-Notes 文档
+
+`Sync Paper-Notes docs` Action 每天 `06:41 UTC` 只读检查
+[`zhaoyang97/Paper-Notes`](https://github.com/zhaoyang97/Paper-Notes) 的
+`main` commit。只有上游 revision 改变时，才会 sparse checkout 上游
+`docs/`，把名称以年份结尾的会议目录（例如 `AAAI2026`、`ACL2026`）镜像到本仓库
+`docs/`，验证完整站点，然后通过 `automation/paper-notes-docs-sync` PR 合并并部署。
+
+同步器不会覆盖以下本地内容：
+
+- `docs/notes/` 与全部 AAMAS reviewed 笔记；
+- `docs/index.md`、`docs/search.md`、`docs/review-routing.md`；
+- `docs/assets/`、`docs/javascripts/`、`docs/stylesheets/` 的 AAMAS 前端改编。
+
+同步 revision、受管目录清单和上游许可证分别保存在
+`data/provenance/PAPER_NOTES_UPSTREAM.md`、
+`data/provenance/PAPER_NOTES_UPSTREAM_DIRS.txt` 与
+`third_party/Paper-Notes/LICENSE`。如果新上游目录与未受管的本地目录重名，同步器
+会拒绝覆盖并让 Action 失败。可在 Actions 页面手动运行并选择强制重新复制当前
+revision。本地执行：
+
+```bash
+bash scripts/sync_paper_notes_docs.sh
+```
+
 ## 状态含义
 
 | 状态 | 含义 |

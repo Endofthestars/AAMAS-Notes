@@ -1,0 +1,131 @@
+name: Sync Paper-Notes docs
+
+on:
+  schedule:
+    - cron: "41 6 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Recopy the current upstream revision
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-paper-notes-docs-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Merge upstream conference docs
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Synchronize Paper-Notes conference directories
+        env:
+          PAPER_NOTES_CACHE_DIR: ${{ runner.temp }}/paper-notes-upstream
+          PAPER_NOTES_FORCE_SYNC: ${{ inputs.force && '1' || '0' }}
+        run: bash scripts/sync_paper_notes_docs.sh
+
+      - name: Detect synchronized changes
+        id: changes
+        run: |
+          if [[ -z "$(git status --porcelain -- docs/ data/provenance/PAPER_NOTES_UPSTREAM.md data/provenance/PAPER_NOTES_UPSTREAM_DIRS.txt third_party/Paper-Notes/LICENSE)" ]]; then
+            echo "Paper-Notes docs are already current."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.changes.outputs.changed == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate merged corpus and site
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          python3 scripts/validate_repository.py
+          python3 -m unittest discover -s tests
+          python3 scripts/generate_site_indexes.py
+          python3 -m pip install mkdocs-material
+          mkdocs build --strict
+
+      - name: Publish synchronization branch
+        if: steps.changes.outputs.changed == 'true'
+        id: prepare
+        env:
+          SYNC_BRANCH: automation/paper-notes-docs-sync
+        run: |
+          upstream_commit="$(sed -n 's/^- upstream_commit: //p' data/provenance/PAPER_NOTES_UPSTREAM.md | head -n 1)"
+          git fetch origin "+refs/heads/$SYNC_BRANCH:refs/remotes/origin/$SYNC_BRANCH" || true
+          git switch -C "$SYNC_BRANCH"
+          git add -A docs/ data/provenance/PAPER_NOTES_UPSTREAM.md data/provenance/PAPER_NOTES_UPSTREAM_DIRS.txt third_party/Paper-Notes/LICENSE
+          git diff --cached --check -- data/provenance/PAPER_NOTES_UPSTREAM.md data/provenance/PAPER_NOTES_UPSTREAM_DIRS.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(docs): sync Paper-Notes (${upstream_commit:0:12})"
+          git push --force-with-lease origin "HEAD:refs/heads/$SYNC_BRANCH"
+          echo "branch=$SYNC_BRANCH" >> "$GITHUB_OUTPUT"
+          echo "upstream_commit=$upstream_commit" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update synchronization pull request
+        if: steps.changes.outputs.changed == 'true'
+        id: pull_request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SYNC_BRANCH: ${{ steps.prepare.outputs.branch }}
+          UPSTREAM_COMMIT: ${{ steps.prepare.outputs.upstream_commit }}
+        run: |
+          pr_url="$(
+            gh pr list \
+              --repo "$GITHUB_REPOSITORY" \
+              --base main \
+              --head "$SYNC_BRANCH" \
+              --state open \
+              --json url \
+              --jq '.[0].url'
+          )"
+          if [[ -z "$pr_url" ]]; then
+            pr_url="$(
+              gh pr create \
+                --repo "$GITHUB_REPOSITORY" \
+                --base main \
+                --head "$SYNC_BRANCH" \
+                --title "chore(docs): sync Paper-Notes (${UPSTREAM_COMMIT:0:12})" \
+                --body "Automated Paper-Notes conference-document synchronization. Upstream commit: $UPSTREAM_COMMIT. Local AAMAS notes and UI files are protected."
+            )"
+          else
+            gh pr edit "$pr_url" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "chore(docs): sync Paper-Notes (${UPSTREAM_COMMIT:0:12})" \
+              --body "Automated Paper-Notes conference-document synchronization. Upstream commit: $UPSTREAM_COMMIT. Local AAMAS notes and UI files are protected."
+          fi
+          echo "url=$pr_url" >> "$GITHUB_OUTPUT"
+
+      - name: Merge validated synchronization pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ steps.pull_request.outputs.url }}
+        run: gh pr merge "$PR_URL" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
+
+      - name: Validate and deploy merged main
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run validate.yml --repo "$GITHUB_REPOSITORY" --ref main
+          gh workflow run deploy-pages.yml --repo "$GITHUB_REPOSITORY" --ref main
