@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">634</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">636</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>328</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>242</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>202</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>201</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>188</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>330</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>243</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>204</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>203</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>189</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>143</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>133</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">领域应用与部署研究 <b>128</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>126</b></span>
-<span class="pill">多机器人与具身智能体 <b>111</b></span>
-<span class="pill">人机协作与社会智能 <b>102</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>134</b></span>
+<span class="pill">领域应用与部署研究 <b>130</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>130</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>127</b></span>
+<span class="pill">多机器人与具身智能体 <b>112</b></span>
+<span class="pill">人机协作与社会智能 <b>103</b></span>
 </div>
 
 ## 全部笔记
@@ -165,6 +165,9 @@ tags:
 
 **[An ML-BDI Reasoner to Support Crime Investigation in Digital Forensics](./ml-bdi-digital-forensics-occupancy.md)**
 : Guilherme Dall'Agnol Deconto, Leonardo dos Santos Teixeira, Roben Castagna Lunardi, Rafael C. Cardoso, Felipe Meneguzzi, Avelino Francisco Zorzo · research · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 论证、知识表示与自动推理
+
+**[An Open-Source Framework for Closed-Loop Multi-UAV Planning and Execution](./auspex-closed-loop-multi-uav-planning-execution.md)**
+: Nico Michel, Björn Björn Döschl, Kai Sommer, Maximilian Schnell, Jane Jean Kiam · demo · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 多机器人与具身智能体 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 生成式与大语言模型智能体 · 多智能体强化学习、协调与通信 · 领域应用与部署研究
 
 **[ANN-CMCGS: Generalizing Continuous Monte-Carlo Graph Search with Approximate Nearest Neighbors](./ann-cmcgs.md)**
 : Christoph Scherer, Wolfgang Hönig · research · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 智能体架构、协议与软件工程
@@ -1776,6 +1779,9 @@ tags:
 
 **[The Limits of Artificial Agency](./keynote-limits-artificial-agency.md)**
 : Joanna Bryson · keynote · 规范、信任、声誉与治理 · 人机协作与社会智能 · 智能体架构、协议与软件工程
+
+**[The Maritime Shipping Competition (MSC) 2025: Efficient Maritime Cargo Bidding and Transport Scheduling](./maritime-shipping-competition-2025.md)**
+: Jan Buermann, Enrico H. Gerding, Enrico Marchioni, Baharak Rastegari · demo · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[The Monetization Agent: A Deployed POMDP for Maximizing Lifetime In-App Advertising Revenue](./monetization-agent-in-app-advertising-pomdp.md)**
 : Jiacheng Chang, Xiao Lei, Zhixi Wan, Lei Huang, Qi He · research · 人机协作与社会智能 · 多智能体搜索、规划与调度 · 规范、信任、声誉与治理
