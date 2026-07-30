@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">638</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">640</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>332</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>245</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>334</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>247</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>206</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>204</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>205</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>189</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>143</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>136</b></span>
-<span class="pill">领域应用与部署研究 <b>132</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>145</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>137</b></span>
+<span class="pill">领域应用与部署研究 <b>134</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>130</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>127</b></span>
 <span class="pill">多机器人与具身智能体 <b>114</b></span>
-<span class="pill">人机协作与社会智能 <b>105</b></span>
+<span class="pill">人机协作与社会智能 <b>106</b></span>
 </div>
 
 ## 全部笔记
@@ -57,6 +57,9 @@ tags:
 
 **[A Hierarchical Approach with Crisis Mitigation for Multi-Robot Spatio-Temporal Restoration](./hierarchical-crisis-mitigation-mr-star.md)**
 : Amel Nestor Docena, Alberto Quattrini Li · research · 多机器人与具身智能体 · 多智能体搜索、规划与调度 · 多智能体强化学习、协调与通信
+
+**[A Multi-level Explainability Framework for Engineering and Understanding BDI Agents](./multilevel-explainability-bdi-agents.md)**
+: Elena Yan, Samuele Burattini, Jomi F. Hübner, Alessandro Ricci · jaamas · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[A Multi-Robot Architecture for Continuous Planning and Execution using BDI Agents](./multi-robot-bdi-continuous-planning.md)**
 : Carlos Joel Tavares da Silva, Rafael Melo Santos, Rafael C. Cardoso, Célia Ghedini Ralha · research · 多机器人与具身智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度
@@ -855,6 +858,9 @@ tags:
 
 **[HyperAgent: Leveraging Hypergraphs for Topology Optimization in Multi-Agent Communication](./hyperagent-hypergraph-multiagent-communication.md)**
 : Heng Zhang, Yuling Shi, Xiaodong Gu, Zijian Zhang, Haochen You, Lubin Gan, Yilei Yuan, Jin Huang · research · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性
+
+**[HyperTensioN and Total-order Forward Decomposition Optimizations](./hypertension-total-order-forward-decomposition.md)**
+: Maurício Cecílio Magnaguagno, Felipe Meneguzzi, Lavindra de Silva · jaamas · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Identifying Essential Rule Sets in Agent-Based Models Through Systematic Ablation: A Tumor Evolution Case Study](./abm-rule-ablation-tumor-evolution.md)**
 : Nhung Duong, Luong Doan, Anh Do, Anh Truong, Ngoc Do, Tien Nguyen, Tuan Do · research · 领域应用与部署研究 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性
