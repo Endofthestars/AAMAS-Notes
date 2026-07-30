@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">594</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">596</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>291</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>205</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>190</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>184</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>182</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>132</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>125</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>293</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>206</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>191</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>185</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>183</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>133</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>126</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
 <span class="pill">多机器人与具身智能体 <b>102</b></span>
-<span class="pill">领域应用与部署研究 <b>92</b></span>
-<span class="pill">人机协作与社会智能 <b>78</b></span>
+<span class="pill">领域应用与部署研究 <b>93</b></span>
+<span class="pill">人机协作与社会智能 <b>79</b></span>
 </div>
 
 ## 全部笔记
@@ -180,6 +180,9 @@ tags:
 
 **[Auditable Institutional Coordination with Episodic Memory for Robust Evacuation under Multi-Source Disruption](./auditable-institutional-coordination-episodic-memory-evacuation.md)**
 : Roman Sultimov · doctoral_consortium · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究 · 智能体架构、协议与软件工程
+
+**[Automated Negotiation and Multimodal Time-Series Forecasting for Efficient Procurement](./automated-negotiation-multimodal-forecasting-procurement.md)**
+: Yasser Mohammad, Haifeng Chen · demo · 博弈论、机制设计与拍卖 · 多智能体搜索、规划与调度 · 资源分配、匹配与社会选择 · 智能体架构、协议与软件工程 · 领域应用与部署研究
 
 **[Automatically Benchmarking LLM Code Agents through Agent-driven Annotation and Evaluation](./prdbench-agent-driven-code-agent-evaluation.md)**
 : Lingyue Fu, Bolun Zhang, Hao Guan, Yaoming Zhu, Lin Qiu, Weiwen Liu, Xuezhi Cao, Xunliang Cai, Weinan Zhang, Yong Yu · research · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性
@@ -933,6 +936,9 @@ tags:
 
 **[Leveraging Context-Oriented Programming to Implement Normative Rules in Autonomous Systems](./context-oriented-normative-rules.md)**
 : Roberto Casadei, Martina De Sanctis, Gianluca Filippone, Sara Pettinari, Gian Luca Scoccia, Nicolas Troquard · research · 规范、信任、声誉与治理 · 智能体架构、协议与软件工程 · 多机器人与具身智能体
+
+**[LexiCoord: A Multi-Agent Game for Lexical Ambiguity Resolution between Humans and LLMs](./lexicoord-human-llm-lexical-ambiguity.md)**
+: Marco Aruta, Francesco Improta, Vadim Malvone, Aniello Murano · demo · 人机协作与社会智能 · 多智能体强化学习、协调与通信 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性
 
 **[Lifted Forward Planning in Relational Factored Markov Decision Processes with Concurrent Actions](./lifted-forward-planning-relational-fmdps.md)**
 : Florian Andreas Marwitz, Tanya Braun, Ralf Möller, Marcel Gehrke · research · 多智能体搜索、规划与调度 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
