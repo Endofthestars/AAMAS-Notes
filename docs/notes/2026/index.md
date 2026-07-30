@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">610</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">612</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>306</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>218</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>196</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>307</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>220</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>197</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>190</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>184</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>185</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>134</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>127</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>119</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>114</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>128</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>121</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>115</b></span>
+<span class="pill">领域应用与部署研究 <b>106</b></span>
 <span class="pill">多机器人与具身智能体 <b>105</b></span>
-<span class="pill">领域应用与部署研究 <b>104</b></span>
-<span class="pill">人机协作与社会智能 <b>86</b></span>
+<span class="pill">人机协作与社会智能 <b>87</b></span>
 </div>
 
 ## 全部笔记
@@ -261,6 +261,9 @@ tags:
 
 **[Boosting Offline MARL under Imbalanced Datasets via Compositional Diffusion Models](./boosting-offline-marl-compositional-diffusion.md)**
 : Lihe Li, Shenghe Hu, Bingxuan Lan, Yuqi Bian, Huan ZHang, Zhao Ming, Chongjie Zhang, Lei Yuan, Yang Yu · research · 多智能体强化学习、协调与通信 · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程
+
+**[BotVerse: Real-Time Event-Driven Simulation of Social Agents](./botverse-event-driven-social-agent-simulation.md)**
+: Edoardo Allegrini, Edoardo Di Paolo, Angelo Spognardi, Marinella Petrocchi · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Bounding Acceptability Degrees and Eliciting Initial Weights in Gradual Argumentation](./bounding-acceptability-degrees-gradual-argumentation.md)**
 : Nir Oren, Bruno Yun · research · 论证、知识表示与自动推理 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性
@@ -1341,6 +1344,9 @@ tags:
 
 **[Proportionality from Low-Dimensional Approval Data](./proportionality-low-dimensional-approval-data.md)**
 : Zhiyi Huang, Gregory Kehne, Chutong Yang · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 多智能体强化学习、协调与通信
+
+**[Proportionality Press: Illustrating Proportionality through Comment Selection](./proportionality-press-comment-selection.md)**
+: Jan Maly, Oliviero Nardi, Simon Rey · demo · 博弈论、机制设计与拍卖 · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Proportionality Variations in Repeated Fair Division of Indivisible Goods](./proportionality-repeated-fair-division.md)**
 : Karl Jochen Micheel, Anaëlle Wilczynski · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理
