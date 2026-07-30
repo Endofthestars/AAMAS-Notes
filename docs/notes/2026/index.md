@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">630</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">632</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>324</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>238</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>201</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>198</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>326</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>240</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>202</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>200</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>187</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>141</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>130</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>132</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>124</b></span>
-<span class="pill">领域应用与部署研究 <b>124</b></span>
-<span class="pill">多机器人与具身智能体 <b>109</b></span>
-<span class="pill">人机协作与社会智能 <b>100</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>126</b></span>
+<span class="pill">领域应用与部署研究 <b>126</b></span>
+<span class="pill">多机器人与具身智能体 <b>110</b></span>
+<span class="pill">人机协作与社会智能 <b>102</b></span>
 </div>
 
 ## 全部笔记
@@ -153,6 +153,9 @@ tags:
 
 **[AmI HMAS: A Hypermedia MAS for Goal-Driven Interactions with Every-day Smart Environments](./ami-hmas-hypermedia-smart-environments.md)**
 : Alexandru Sorici, Victor-Vasile Udrstioiu, Ioan-Cristian Cordos, Andrei Olaru · demo · 智能体架构、协议与软件工程 · 生成式与大语言模型智能体 · 论证、知识表示与自动推理 · 多智能体搜索、规划与调度 · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性 · 人机协作与社会智能
+
+**[An Agentic Voice-Based Assistant for Interactive Conversation and Guidance in Real-World Environments](./ava-agentic-voice-assistant-real-world-environments.md)**
+: Donghao Huang, Monika Pandey · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[An Algebraic Structuring of Epistemic States for BDI Agents in Uncertain Environments](./abelian-epistemic-states-bdi-uncertainty.md)**
 : Charles A. N. Costa, Marlo Souza, Célia Ghedini Ralha · research · 论证、知识表示与自动推理 · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程
@@ -1005,6 +1008,9 @@ tags:
 
 **[LLM-based Agents in Supply Chain Games: The Role of Incomplete Information and Model Heterogeneity](./llm-agents-supply-chain-incomplete-information.md)**
 : Jiuyun Jiang, Yuecheng Hong, Jiangnan Shi, Song Huang, Jin Yang, Guangxin Jiang, Xiaomeng Guo, Guang Xiao · research · 生成式与大语言模型智能体 · 资源分配、匹配与社会选择 · 多智能体强化学习、协调与通信
+
+**[LLM-Guided Multi-Agent Evacuation Coordination via Episodic Memory and Cognitive Task Analysis](./llm-guided-evacuation-episodic-memory-cta.md)**
+: Roman Sultimov, Aleksandr Volkov, Mile Mitrovic, Yury Maximov · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[LLM-SMAC: Solving Multi-Agent Decision-Making Tasks via LLM Decision Tree Code Generation](./llm-smac-decision-tree-code-generation.md)**
 : Yue Deng, Weiyu Ma, Yuxin Fan, Ruyi Song, Yin Zhang, Haifeng Zhang, Jian Zhao · research · 多智能体强化学习、协调与通信 · 生成式与大语言模型智能体 · 多智能体搜索、规划与调度
