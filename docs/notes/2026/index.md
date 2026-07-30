@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">618</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">620</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>312</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>226</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>314</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>228</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>198</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>191</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>192</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>136</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>137</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>125</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>118</b></span>
-<span class="pill">领域应用与部署研究 <b>112</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>126</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>119</b></span>
+<span class="pill">领域应用与部署研究 <b>114</b></span>
 <span class="pill">多机器人与具身智能体 <b>106</b></span>
-<span class="pill">人机协作与社会智能 <b>92</b></span>
+<span class="pill">人机协作与社会智能 <b>93</b></span>
 </div>
 
 ## 全部笔记
@@ -459,6 +459,9 @@ tags:
 
 **[DEMamba: Decoupled Enhanced State Space Models with Selective Mechanisms for Multivariate Time Series Forecasting](./demamba-multivariate-time-series-forecasting.md)**
 : Junluo Zheng, Yang Liu, Jianyong Chen · research · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 尚未分类
+
+**[Demonstrating Program Evolution on the Traveling Salesman Problem](./program-evolution-tsp-openevolve.md)**
+: Solomon Andryushenko, Artem Dzhalilov, Yaroslav Pelekhov, Pavel Agafonov, Maria Ivanova · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[DEpiABS: Differentiable Epidemic Agent-Based Simulator](./depiabs-differentiable-epidemic-simulator.md)**
 : Zhijian Gao, Shuxin Li, Bo An · research · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 生成式与大语言模型智能体
@@ -1389,6 +1392,9 @@ tags:
 
 **[Raise BDI Agents, First Steps](./raise-bdi-agents-first-steps.md)**
 : Andrea Gatti · doctoral_consortium · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 论证、知识表示与自动推理 · 生成式与大语言模型智能体
+
+**[rAIson: Developing Reliable Decision-Making Agents](./raison-reliable-decision-making-agents.md)**
+: Pavlos Moraitis, Nikolaos Spanoudakis, Antonis Kakas · demo · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Ratio-Based Signaling for Source-Victim Separation in Swarm Fault Detection](./ratio-signaling-swarm-fault-detection.md)**
 : Longyin Cui · research · 多机器人与具身智能体 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程
