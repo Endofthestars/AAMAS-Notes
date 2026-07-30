@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">626</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">628</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>320</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>234</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>322</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>236</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>201</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>195</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>197</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>186</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>139</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>140</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>129</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>122</b></span>
-<span class="pill">领域应用与部署研究 <b>120</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>123</b></span>
+<span class="pill">领域应用与部署研究 <b>122</b></span>
 <span class="pill">多机器人与具身智能体 <b>109</b></span>
-<span class="pill">人机协作与社会智能 <b>97</b></span>
+<span class="pill">人机协作与社会智能 <b>99</b></span>
 </div>
 
 ## 全部笔记
@@ -925,6 +925,9 @@ tags:
 **[Kidney Exchange: Faster Parameterized Algorithms and Tighter Lower Bounds](./kidney-exchange-parameterized-algorithms.md)**
 : Palash Dey, Aritra Banik, Abhishek Sahu, Sujoy Bhore · research · 资源分配、匹配与社会选择 · 论证、知识表示与自动推理
 
+**[KiMO: Knowledge-infused Multi-agent Orchestrator](./kimo-knowledge-infused-multi-agent-orchestrator.md)**
+: Ritvik Garimella, Michael Charles Stewart, Kevin Do, Leeon Israel, Amit Sheth · demo · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 论证、知识表示与自动推理 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
+
 **[Large Language Models for Designing Participatory Budgeting Rules](./llmrule-participatory-budgeting.md)**
 : Nguyen Thach, Xingchen Sha, Hau Chan · research · 生成式与大语言模型智能体 · 资源分配、匹配与社会选择 · 智能体架构、协议与软件工程
 
@@ -990,6 +993,9 @@ tags:
 
 **[Lifted Forward Planning in Relational Factored Markov Decision Processes with Concurrent Actions](./lifted-forward-planning-relational-fmdps.md)**
 : Florian Andreas Marwitz, Tanya Braun, Ralf Möller, Marcel Gehrke · research · 多智能体搜索、规划与调度 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
+
+**[LightAutoDS-Tab: Multi-AutoML Agentic System for Tabular Data](./lightautods-tab-multi-automl-agentic-system.md)**
+: Alexey Lapin, Igor Hromov, Stanislav Chumakov, Mile Mitrovic, Dmitry Simakov, Nikolay O. Nikitin, Andrey V. Savchenko · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 多智能体搜索、规划与调度 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[LLM Performance Predictors: Learning When to Escalate in Hybrid Human-AI Moderation Systems](./llm-performance-predictors-moderation.md)**
 : Or Bachar, Or Levi, Sardhendu Mishra, Adi Levi, Manpreet Singh Minhas, Justin Miller, Omer Ben-Porat, Eilon Sheetrit, Jonathan Morra · research · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 规范、信任、声誉与治理
