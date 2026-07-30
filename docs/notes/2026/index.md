@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">632</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">634</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,17 +21,17 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>326</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>240</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>328</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>242</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>202</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>200</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>187</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>141</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>132</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>201</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>188</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>143</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>133</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>129</b></span>
+<span class="pill">领域应用与部署研究 <b>128</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>126</b></span>
-<span class="pill">领域应用与部署研究 <b>126</b></span>
-<span class="pill">多机器人与具身智能体 <b>110</b></span>
+<span class="pill">多机器人与具身智能体 <b>111</b></span>
 <span class="pill">人机协作与社会智能 <b>102</b></span>
 </div>
 
@@ -261,6 +261,9 @@ tags:
 
 **[Blending Ontologies and Language Models to Generate Sound and Natural Robot Explanations](./ontology-llm-robot-explanations.md)**
 : Alberto Olivares-Alarcos, Muhammad Ahsan, Satrio Sanjaya, Hsien-I Lin, Guillem Alenyà · research · 多机器人与具身智能体 · 生成式与大语言模型智能体 · 人机协作与社会智能
+
+**[BMC4TimeSec: Verification of Timed Security Protocols](./bmc4timesec-timed-security-protocol-verification.md)**
+: Agnieszka M. Zbrzezny · demo · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程 · 规范、信任、声誉与治理 · 领域应用与部署研究
 
 **[Bons-AI: An Agent-Based Model to Evaluate the Behavior of Bonsai Grower According to Different Levels of Communication and Experience](./bons-ai-bonsai-grower-abm.md)**
 : Sara Satake, Guilherme Nakahata, Claus Aranha · research · 领域应用与部署研究 · 多智能体强化学习、协调与通信 · 人机协作与社会智能
@@ -1629,6 +1632,9 @@ tags:
 
 **[Smooth Routing in Decaying Trees](./smooth-routing-decaying-trees.md)**
 : Till Fluschnik, Amela Pucic, Malte Renken · research · 多智能体搜索、规划与调度 · 多机器人与具身智能体 · 智能体架构、协议与软件工程
+
+**[SMT4STECTL: Satisfiability-Driven Synthesis from Specifications in Strategic Timed Existential CTL](./smt4stectl-strategic-timed-model-synthesis.md)**
+: Artur Niewiadomski, Mateusz Przychodzki, Magdalena Kacprzak, Wojciech Penczek, Andrzej Zbrzezny · demo · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 博弈论、机制设计与拍卖 · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程 · 多机器人与具身智能体 · 领域应用与部署研究
 
 **[Social Welfare Maximization in Approval-Based Committee Voting under Uncertainty](./approval-voting-uncertainty-welfare.md)**
 : Haris Aziz, Yuhang Guo, venkateswara Rao Kagita, Baharak Rastegari, Mashbat Suzuki · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 规范、信任、声誉与治理
