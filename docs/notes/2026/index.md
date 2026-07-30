@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">592</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">594</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,17 +21,17 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>290</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>203</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>189</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>291</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>205</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>190</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>184</b></span>
-<span class="pill">博弈论、机制设计与拍卖 <b>181</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>131</b></span>
+<span class="pill">博弈论、机制设计与拍卖 <b>182</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>132</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>125</b></span>
-<span class="pill">规范、信任、声誉与治理 <b>118</b></span>
+<span class="pill">规范、信任、声誉与治理 <b>119</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>109</b></span>
 <span class="pill">多机器人与具身智能体 <b>102</b></span>
-<span class="pill">领域应用与部署研究 <b>91</b></span>
+<span class="pill">领域应用与部署研究 <b>92</b></span>
 <span class="pill">人机协作与社会智能 <b>78</b></span>
 </div>
 
@@ -177,6 +177,9 @@ tags:
 
 **[ATL*AS: An Automata-Theoretic Approach and Tool for the Verification of Strategic Abilities in Multi-Agent Systems](./atlastar-as-strategic-ability-verification.md)**
 : Sofia Garcia de Blas Garcia-Alcaide, Francesco Belardinelli · research · 安全、验证、运行时保障与可解释性 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
+
+**[Auditable Institutional Coordination with Episodic Memory for Robust Evacuation under Multi-Source Disruption](./auditable-institutional-coordination-episodic-memory-evacuation.md)**
+: Roman Sultimov · doctoral_consortium · 多智能体强化学习、协调与通信 · 规范、信任、声誉与治理 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究 · 智能体架构、协议与软件工程
 
 **[Automatically Benchmarking LLM Code Agents through Agent-driven Annotation and Evaluation](./prdbench-agent-driven-code-agent-evaluation.md)**
 : Lingyue Fu, Bolun Zhang, Hao Guan, Yaoming Zhu, Lin Qiu, Weiwen Liu, Xuezhi Cao, Xunliang Cai, Weinan Zhang, Yong Yu · research · 智能体架构、协议与软件工程 · 领域应用与部署研究 · 安全、验证、运行时保障与可解释性
@@ -1266,6 +1269,9 @@ tags:
 
 **[PortfoliQA: An Agentic RAG Framework for Knowledge Graph Question Answering via Structured Evidence Portfolios](./portfolioqa-agentic-rag-structured-evidence-portfolios.md)**
 : Weina Zhang, Junsheng Huang, Zhongqin Bi, Dan Dai · research · 智能体架构、协议与软件工程 · 论证、知识表示与自动推理 · 安全、验证、运行时保障与可解释性
+
+**[Positional Properties in Temporal Logic](./positional-properties-temporal-logic.md)**
+: Jessica L. Newman · doctoral_consortium · 论证、知识表示与自动推理 · 博弈论、机制设计与拍卖 · 安全、验证、运行时保障与可解释性
 
 **[Practical approach to 2-Euclidean Preferences](./practical-2-euclidean-preferences.md)**
 : Michal Dvořák, Jan Pokorný, Dušan Knop, Martin Slávik · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
