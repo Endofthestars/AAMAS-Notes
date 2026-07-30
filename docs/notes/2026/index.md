@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">608</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">610</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>304</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>216</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>306</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>218</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>196</b></span>
 <span class="pill">多智能体搜索、规划与调度 <b>190</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>184</b></span>
-<span class="pill">论证、知识表示与自动推理 <b>133</b></span>
+<span class="pill">论证、知识表示与自动推理 <b>134</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>127</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>112</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>114</b></span>
 <span class="pill">多机器人与具身智能体 <b>105</b></span>
-<span class="pill">领域应用与部署研究 <b>102</b></span>
-<span class="pill">人机协作与社会智能 <b>84</b></span>
+<span class="pill">领域应用与部署研究 <b>104</b></span>
+<span class="pill">人机协作与社会智能 <b>86</b></span>
 </div>
 
 ## 全部笔记
@@ -171,6 +171,9 @@ tags:
 
 **[Approximating Nash Equilibria in General-Sum Games via Meta-Learning](./meta-learning-general-sum-nash.md)**
 : David Sychrovský, Christopher Solinas, Revan MacQueen, Kevin Wang, James R. Wright, Nathan R. Sturtevant, Michael Bowling · research · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理 · 智能体架构、协议与软件工程
+
+**[ArgLLM-App: An Interactive System for Argumentative Reasoning with Large Language Models](./argllm-app-interactive-argumentative-reasoning.md)**
+: Adam Dejl, Deniz Gorur, Francesca Toni · demo · 论证、知识表示与自动推理 · 生成式与大语言模型智能体 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 领域应用与部署研究
 
 **[Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us](./argumentative-human-ai-decision-making.md)**
 : Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh · blue_sky · 论证、知识表示与自动推理 · 人机协作与社会智能 · 生成式与大语言模型智能体 · 规范、信任、声誉与治理
@@ -321,6 +324,9 @@ tags:
 
 **[Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models](./code-space-response-oracles.md)**
 : Daniel Hennes, Zun Li, John Schultz, Marc Lanctot · research · 博弈论、机制设计与拍卖 · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程
+
+**[CogEA: A Multi-Agent System for Cognitive Ability Annotation of Exercises by Simulating Human Behaviors](./cogea-cognitive-ability-exercise-annotation.md)**
+: Peiran Zhang, Nan He, Binbin QI, Lifeng Sun · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 人机协作与社会智能 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Coherent Belief and Opinion Propagation Produces more Echo Chambers](./coherent-belief-opinion-echo-chambers.md)**
 : Hiro Kataoka, Jérôme Euzenat, Koji Hasebe · research · 规范、信任、声誉与治理 · 论证、知识表示与自动推理 · 人机协作与社会智能 · 多智能体强化学习、协调与通信
