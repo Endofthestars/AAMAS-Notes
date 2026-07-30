@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">604</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">606</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,17 +21,17 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>300</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>212</b></span>
-<span class="pill">多智能体强化学习、协调与通信 <b>194</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>188</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>302</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>214</b></span>
+<span class="pill">多智能体强化学习、协调与通信 <b>196</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>189</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>184</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>133</b></span>
 <span class="pill">资源分配、匹配与社会选择 <b>126</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
 <span class="pill">生成式与大语言模型智能体 <b>111</b></span>
 <span class="pill">多机器人与具身智能体 <b>105</b></span>
-<span class="pill">领域应用与部署研究 <b>98</b></span>
+<span class="pill">领域应用与部署研究 <b>100</b></span>
 <span class="pill">人机协作与社会智能 <b>83</b></span>
 </div>
 
@@ -117,6 +117,9 @@ tags:
 
 **[Agents of Diffusion: Enhancing Diffusion Language Models with Multi-Agent Reinforcement Learning for Structured Data Generation](./agents-of-diffusion.md)**
 : Aja Khanal, Kaushik T. Ranade, Rishabh Agrawal, Kalyan S. Basu, Apurva Narayan · research · 生成式与大语言模型智能体 · 多智能体强化学习、协调与通信 · 智能体架构、协议与软件工程
+
+**[AgentServe: Online Who-Where Adaptation for Open-World, Geo-Distributed Stateful Multi-Agent Systems](./agentserve-who-where-stateful-mas.md)**
+: Toshimi Okubo, Takuya Fukushima, Akira Sakamoto, Reina Hoshino, Noriaki Inoue, Kensuke Yokota, Yoshimi Ichiyanagi · demo · 智能体架构、协议与软件工程 · 多智能体强化学习、协调与通信 · 多智能体搜索、规划与调度 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[AI Agent Systems for Supply Chains: Structured Decision Prompts and Memory Retrieval](./supply-chain-agents-structured-prompts-memory.md)**
 : Konosuke Yoshizato, Kazuma Shimizu, Ryota Higa, Takanobu Otsuka · research · 领域应用与部署研究 · 生成式与大语言模型智能体 · 资源分配、匹配与社会选择
@@ -1053,6 +1056,9 @@ tags:
 
 **[Minimizing Envy and Maximizing Happiness in Graphical House Allocation](./graphical-house-allocation-envy-happiness.md)**
 : Anubhav Dhar, Ashlesha Hota, Palash Dey, Sudeshna Kolay · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理
+
+**[MininetGym: A Live Demonstration of RL-Based Cybersecurity Training](./mininetgym-rl-cybersecurity-training.md)**
+: Salvo Finistrella, Stefano Mariani, Franco Zambonelli · demo · 多智能体强化学习、协调与通信 · 安全、验证、运行时保障与可解释性 · 智能体架构、协议与软件工程 · 领域应用与部署研究
 
 **[Mitigating Constraint Conflict in Offline RL: An Adaptive Weighted Constraint Approach](./adaptive-weighted-constraint-offline-rl.md)**
 : Pengyu Chen, Shirong Liu, Minye Huang, Haozhuo Zheng, Haoyu Liu, Wenyu Yuan, Yang Liu · research · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性
