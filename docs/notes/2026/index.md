@@ -13,7 +13,7 @@ tags:
 <div class="conf-index" markdown>
 
 <div class="conf-stats-bar">
-<div class="cs-item"><span class="cs-num">606</span><span class="cs-lab">reviewed 笔记</span></div>
+<div class="cs-item"><span class="cs-num">608</span><span class="cs-lab">reviewed 笔记</span></div>
 <div class="cs-item"><span class="cs-num">12</span><span class="cs-lab">研究主题</span></div>
 <div class="cs-item"><span class="cs-num">正文级</span><span class="cs-lab">证据核验</span></div>
 </div>
@@ -21,18 +21,18 @@ tags:
 ## 研究主题
 
 <div class="conf-pills">
-<span class="pill">智能体架构、协议与软件工程 <b>302</b></span>
-<span class="pill">安全、验证、运行时保障与可解释性 <b>214</b></span>
+<span class="pill">智能体架构、协议与软件工程 <b>304</b></span>
+<span class="pill">安全、验证、运行时保障与可解释性 <b>216</b></span>
 <span class="pill">多智能体强化学习、协调与通信 <b>196</b></span>
-<span class="pill">多智能体搜索、规划与调度 <b>189</b></span>
+<span class="pill">多智能体搜索、规划与调度 <b>190</b></span>
 <span class="pill">博弈论、机制设计与拍卖 <b>184</b></span>
 <span class="pill">论证、知识表示与自动推理 <b>133</b></span>
-<span class="pill">资源分配、匹配与社会选择 <b>126</b></span>
+<span class="pill">资源分配、匹配与社会选择 <b>127</b></span>
 <span class="pill">规范、信任、声誉与治理 <b>119</b></span>
-<span class="pill">生成式与大语言模型智能体 <b>111</b></span>
+<span class="pill">生成式与大语言模型智能体 <b>112</b></span>
 <span class="pill">多机器人与具身智能体 <b>105</b></span>
-<span class="pill">领域应用与部署研究 <b>100</b></span>
-<span class="pill">人机协作与社会智能 <b>83</b></span>
+<span class="pill">领域应用与部署研究 <b>102</b></span>
+<span class="pill">人机协作与社会智能 <b>84</b></span>
 </div>
 
 ## 全部笔记
@@ -45,6 +45,9 @@ tags:
 
 **[A Conceptual Framework for Shared Autonomy](./shared-autonomy-conceptual-framework.md)**
 : Shashank Shekhar, Laurent Jeanpierre, Abdel-illah Mouaddib · research · 人机协作与社会智能 · 多智能体搜索、规划与调度 · 智能体架构、协议与软件工程
+
+**[A Demonstration of an LLM-based Multi-agent System for Drug Discovery](./llm-multi-agent-drug-discovery.md)**
+: Lakshidaa Saigiridharan, Helen Lai, Kinga Jenei, Jiazhen He, Samuel Genheden · demo · 生成式与大语言模型智能体 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 人机协作与社会智能 · 领域应用与部署研究
 
 **[A General Incentives-Based Framework for Fairness in Multi-agent Resource Allocation](./giff-fair-multiagent-resource-allocation.md)**
 : Ashwin Kumar, William Yeoh · research · 资源分配、匹配与社会选择 · 规范、信任、声誉与治理 · 多智能体强化学习、协调与通信
@@ -591,6 +594,9 @@ tags:
 
 **[Everyone Contributes! Incentivizing Strategic Cooperation in Multi-LLM Systems via Sequential Public Goods Games](./mac-spgg-multi-llm-cooperation.md)**
 : Yunhao Liang, Yuan Qu, Jingyuan Yang, Shaochong Lin, Zuo-Jun Max Shen · research · 生成式与大语言模型智能体 · 多智能体强化学习、协调与通信 · 博弈论、机制设计与拍卖
+
+**[EVMapSim: A Network-level Electric Vehicle Charging Simulator](./evmapsim-network-level-ev-charging.md)**
+: Prokopis Georgiou, Jayati Deshmukh, Vahid Yazdanpanah, Sebastian Stein, Enrico Gerding · demo · 多智能体搜索、规划与调度 · 资源分配、匹配与社会选择 · 智能体架构、协议与软件工程 · 安全、验证、运行时保障与可解释性 · 领域应用与部署研究
 
 **[Existence and Computation of Fair Allocations under Constraints](./fair-allocations-under-constraints.md)**
 : Siddharth Barman, Ioannis Caragiannis, Sudarshan Shyam · research · 资源分配、匹配与社会选择 · 博弈论、机制设计与拍卖 · 论证、知识表示与自动推理
