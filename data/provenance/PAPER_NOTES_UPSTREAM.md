@@ -2,8 +2,8 @@
 
 - upstream_repository: https://github.com/zhaoyang97/Paper-Notes.git
 - upstream_branch: main
-- upstream_commit: 2a378054bdca25df4b5418e9cd64b02fc6aa789e
-- synced_at_utc: 2026-07-30T12:32:02Z
+- upstream_commit: de63c0e13b242cadcc5faa8cc2017fcc8c235026
+- synced_at_utc: 2026-10-03T12:02:10Z
 - mirrored_scope: conference-year directories from upstream docs/
 - managed_directory_manifest: data/provenance/PAPER_NOTES_UPSTREAM_DIRS.txt
 - protected_local_paths: docs/index.md, docs/search.md, docs/notes/, docs/assets/, docs/javascripts/, docs/stylesheets/, docs/review-routing.md
